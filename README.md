@@ -1,5 +1,4 @@
 # 160th-Frameworks
-v2.0e
 
 This is the home of the mission framwork for the 160th SOR
 
