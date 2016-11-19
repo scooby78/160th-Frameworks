@@ -2289,8 +2289,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9540.1699,139.99615,9869.4873};
-						angles[]={0,1.5860759,0};
+						position[]={9540.1699,139.99643,9869.4883};
+						angles[]={0,1.5860679,0};
 					};
 					side="West";
 					flags=6;
@@ -2298,21 +2298,288 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="COLONEL";
-						init="this setGroupId [""G""]; nul = [this,""G""] spawn SOR_fnc_markUnits;";
 						description="GODFATHER";
 						isPlayer=1;
 						isPlayable=1;
 					};
 					id=64;
 					type="SOR_ZeusCommand_D";
-					atlOffset=-0.0002746582;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="Enh_onDamagedEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="false";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="Enh_onRespawnEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="false";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="Enh_taskPatrol_combatMode";
+							expression="_this setVariable ['Enh_randomPatrol_combatMode',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="YELLOW";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="Enh_taskPatrol_formation";
+							expression="_this setVariable ['Enh_randomPatrol_formation',_value]";
+							class Value
+							{
+								class data
+								{
+									nil=1;
+									class type
+									{
+										type[]=
+										{
+											"ANY"
+										};
+									};
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="Enh_taskPatrol_behaviour";
+							expression="_this setVariable ['Enh_randomPatrol_behaviour',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="SAFE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="Enh_taskPatrol_speed";
+							expression="_this setVariable ['Enh_randomPatrol_speedMode',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="LIMITED";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="Enh_animCombEquipment";
+							expression="_this setVariable ['Enh_animCombEquipment',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ASIS";
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="Enh_animType";
+							expression="				if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};				if !(_value isEqualTo '' && isServer) then				{					[_this,_value] spawn					{						waitUntil {time > 0.2};						[_this select 0,_this select 1,(_this select 0) getVariable 'Enh_animEquipment'] remoteExec ['BIS_fnc_ambientAnim',0,true];					};				};			";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="Enh_onKilledEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="false";
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute11
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						class Attribute12
+						{
+							property="Enh_animCombType";
+							expression="				if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};				if !(_value isEqualTo '' && isServer) then				{					[_this,_value] spawn					{						waitUntil {time > 0.2};						[_this select 0,_this select 1,(_this select 0) getVariable 'Enh_animCombEquipment'] remoteExec ['BIS_fnc_ambientAnimCombat',0,true];					};				};			";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute13
+						{
+							property="Enh_animEquipment";
+							expression="_this setVariable ['Enh_animEquipment',_value];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ASIS";
+								};
+							};
+						};
+						nAttributes=14;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=63;
-			atlOffset=-0.0002746582;
 		};
 		class Item64
 		{
@@ -8364,7 +8631,7 @@ class Mission
 			text="Fuel";
 			type="selector_selectable";
 			colorName="ColorOrange";
-			angle=161.74899;
+			angle=161.74898;
 			id=291;
 		};
 		class Item181
@@ -8375,7 +8642,7 @@ class Mission
 			text="Ammo";
 			type="selector_selectable";
 			colorName="ColorOrange";
-			angle=161.74899;
+			angle=161.74898;
 			id=292;
 		};
 		class Item182
@@ -8386,7 +8653,7 @@ class Mission
 			text="Repair";
 			type="selector_selectable";
 			colorName="ColorOrange";
-			angle=161.74899;
+			angle=161.74898;
 			id=293;
 		};
 		class Item183
@@ -8397,7 +8664,7 @@ class Mission
 			text="Fuel";
 			type="selector_selectable";
 			colorName="ColorOrange";
-			angle=343.42203;
+			angle=343.422;
 			id=294;
 		};
 		class Item184
@@ -8408,7 +8675,7 @@ class Mission
 			text="Ammo";
 			type="selector_selectable";
 			colorName="ColorOrange";
-			angle=343.42203;
+			angle=343.422;
 			id=295;
 			atlOffset=0.022613525;
 		};
@@ -8420,7 +8687,7 @@ class Mission
 			text="Repair";
 			type="selector_selectable";
 			colorName="ColorOrange";
-			angle=343.42203;
+			angle=343.422;
 			id=296;
 		};
 		class Item186
@@ -8787,7 +9054,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={9561.0566,139.99483,9792.3721};
-			angle=6.2773032;
+			angle=6.2773027;
 			class Attributes
 			{
 				name="rep1";
@@ -8857,7 +9124,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={9659.8701,139.995,10077.943};
-			angle=3.9040918;
+			angle=3.9040916;
 			class Attributes
 			{
 				condition="(""LandVehicle"" countType thislist > 0) && count (thislist unitsBelowHeight 1) > 0";
@@ -8878,7 +9145,7 @@ class Mission
 			name="MHQ";
 			text="Maintenance HQ";
 			type="b_maint";
-			angle=45.361053;
+			angle=45.36105;
 			id=323;
 		};
 		class Item213
@@ -8947,7 +9214,7 @@ class Mission
 			colorName="ColorBlue";
 			a=1.5;
 			b=1.5;
-			angle=197.79802;
+			angle=197.798;
 			id=328;
 			atlOffset=0.00012207031;
 		};
@@ -9104,7 +9371,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={9584.3008,139.995,10005.683};
-			angle=6.2413282;
+			angle=6.2413278;
 			class Attributes
 			{
 				condition="(""Air"" countType thislist > 0) && (getPos ((thislist) select 0) select 2) <= 1";
@@ -9308,7 +9575,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={9623.1201,139.995,10005.691};
-			angle=6.2413282;
+			angle=6.2413278;
 			class Attributes
 			{
 				condition="(""Air"" countType thislist > 0) && (getPos ((thislist) select 0) select 2) <= 1";
