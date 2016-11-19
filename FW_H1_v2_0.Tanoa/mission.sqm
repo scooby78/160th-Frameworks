@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=854;
+		nextID=856;
 	};
 	class Camera
 	{
-		pos[]={12424.841,156.25746,13018.27};
-		dir[]={-0.78683031,-0.55032098,0.27982304};
-		up[]={-0.51860261,0.8348124,0.18443264};
-		aside[]={0.33512479,9.687501e-007,0.94229358};
+		pos[]={11615.141,23.924551,13120.089};
+		dir[]={0.25041771,-0.96560055,-0.071866326};
+		up[]={0.92801857,0.26023754,-0.26632807};
+		aside[]={-0.27589077,9.503914e-006,-0.96130663};
 	};
 };
 binarizationWanted=0;
@@ -310,7 +310,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=315;
+		items=317;
 		class Item0
 		{
 			dataType="Marker";
@@ -5517,12 +5517,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11619.224,7.112,13119.814};
-				angles[]={0,3.6585243,6.2824869};
+				position[]={11619.355,7.1079788,13120.222};
+				angles[]={0,3.6585243,6.282495};
 			};
 			id=393;
 			type="ModuleCurator_F";
-			atlOffset=0.0039300919;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5628,12 +5627,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11618.576,7.112,13118.013};
-				angles[]={0,3.6585243,6.2824869};
+				position[]={11618.918,7.1082807,13118.774};
+				angles[]={0,3.6585243,6.282495};
 			};
 			id=394;
 			type="ModuleCurator_F";
-			atlOffset=0.0034832954;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5762,7 +5760,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="76561198048413270 ";
+							value="76561198048413270";
 						};
 					};
 				};
@@ -11112,6 +11110,228 @@ class Mission
 					};
 				};
 				nAttributes=3;
+			};
+		};
+		class Item315
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11619.758,11.223,13124.44};
+				angles[]={0,3.6585243,6.2824869};
+			};
+			id=855;
+			type="ModuleCurator_F";
+			atlOffset=4.1152978;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="76561198192181298";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Litheius";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item316
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11620.088,11.223,13125.54};
+				angles[]={0,3.6585243,6.2824869};
+			};
+			id=854;
+			type="ModuleCurator_F";
+			atlOffset=4.1155257;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="76561198076402389";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Elliot Beckett";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 	};
