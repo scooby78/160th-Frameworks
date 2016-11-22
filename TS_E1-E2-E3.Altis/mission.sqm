@@ -8,11 +8,11 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=5497;
+		nextID=5499;
 	};
 	class MarkerIDProvider
 	{
-		nextID=271;
+		nextID=273;
 	};
 	class Camera
 	{
