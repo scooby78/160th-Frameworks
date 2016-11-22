@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15179.586,632.34821,16290.152};
-		dir[]={-0.4840675,-0.64753371,0.58873832};
-		up[]={-0.41128418,0.76194042,0.50022018};
-		aside[]={0.7725358,-3.5420235e-006,0.63518941};
+		pos[]={14849.3,232.30869,16709.057};
+		dir[]={-0.53164667,-0.75073719,0.39213407};
+		up[]={-0.60422653,0.66052133,0.44566867};
+		aside[]={0.59359241,-4.4959597e-007,0.80477989};
 	};
 };
 binarizationWanted=0;
@@ -796,6 +796,7 @@ class Mission
 			};
 			id=66;
 			type="SOR_rhsusf_m113d_usarmy";
+			atlOffset=-5.7220459e-006;
 		};
 		class Item8
 		{
@@ -813,7 +814,7 @@ class Mission
 			};
 			id=67;
 			type="SOR_rhsusf_m113d_usarmy";
-			atlOffset=-0.0001449585;
+			atlOffset=-0.00015830994;
 		};
 		class Item9
 		{
@@ -831,7 +832,7 @@ class Mission
 			};
 			id=68;
 			type="SOR_rhsusf_m113d_usarmy";
-			atlOffset=-0.00020980835;
+			atlOffset=-0.00021934509;
 		};
 		class Item10
 		{
@@ -849,7 +850,7 @@ class Mission
 			};
 			id=69;
 			type="SOR_rhsusf_m113d_usarmy";
-			atlOffset=3.8146973e-006;
+			atlOffset=-5.7220459e-006;
 		};
 		class Item11
 		{
@@ -5737,7 +5738,7 @@ class Mission
 			};
 			id=716;
 			type="SOR_rhsusf_m113d_usarmy_supply";
-			atlOffset=-3.6239624e-005;
+			atlOffset=-4.196167e-005;
 		};
 		class Item156
 		{
