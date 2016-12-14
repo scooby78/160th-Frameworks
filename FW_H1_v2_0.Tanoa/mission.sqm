@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=911;
+		nextID=1064;
 	};
 	class Camera
 	{
-		pos[]={11976.311,148.30779,13245.383};
-		dir[]={-0.21040636,-0.56368619,-0.79888982};
-		up[]={-0.14358339,0.82583863,-0.54518086};
-		aside[]={-0.96710789,-1.0220392e-006,0.25472301};
+		pos[]={11629.813,36.785004,13186.876};
+		dir[]={-0.17368616,-0.78251475,-0.59811342};
+		up[]={-0.21821581,0.62251741,-0.75146616};
+		aside[]={-0.9604097,2.740795e-006,0.2789073};
 	};
 };
 binarizationWanted=0;
@@ -305,7 +305,6 @@ class Mission
 			};
 			id=53;
 			type="SOR_rhsusf_m113_usarmy";
-			atlOffset=7.1525574e-006;
 		};
 		class Item5
 		{
@@ -323,7 +322,6 @@ class Mission
 			};
 			id=54;
 			type="SOR_rhsusf_m113_usarmy";
-			atlOffset=7.1525574e-006;
 		};
 		class Item6
 		{
@@ -341,7 +339,6 @@ class Mission
 			};
 			id=56;
 			type="SOR_rhsusf_m113_usarmy";
-			atlOffset=7.1525574e-006;
 		};
 		class Item7
 		{
@@ -869,7 +866,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=280;
 			type="SOR_PJ_Box_F";
@@ -888,7 +884,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=281;
 			type="SOR_PJ_Box_F";
@@ -906,7 +901,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=282;
 			type="SOR_PJ_Box_F";
@@ -924,7 +918,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=283;
 			type="SOR_PJ_Box_F";
@@ -942,7 +935,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=284;
 			type="SOR_PJ_Box_F";
@@ -998,7 +990,6 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=299;
 			type="SOR_PJ_Box_F";
@@ -1029,14 +1020,13 @@ class Mission
 				angles[]={0.06656827,1.1660999,0.0026744273};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="nul = [this,""AMMO3""] spawn SOR_fnc_markUnits;";
 			};
 			id=329;
 			type="SOR_Eng_Truck_ammo_D";
-			atlOffset=0.042181969;
+			atlOffset=0.36604881;
 		};
 		class Item43
 		{
@@ -1065,14 +1055,13 @@ class Mission
 				angles[]={6.256525,1.1528696,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="nul = [this,""REPAIR3""] spawn SOR_fnc_markUnits;";
 			};
 			id=331;
 			type="SOR_Eng_Truck_Repair_D";
-			atlOffset=0.045562267;
+			atlOffset=0.73726082;
 		};
 		class Item45
 		{
@@ -1209,6 +1198,7 @@ class Mission
 			};
 			id=363;
 			type="SOR_HW_Box_F";
+			atlOffset=-0.00028562546;
 		};
 		class Item54
 		{
@@ -1225,6 +1215,7 @@ class Mission
 			};
 			id=364;
 			type="SOR_E_Box_F";
+			atlOffset=-0.00033855438;
 		};
 		class Item55
 		{
@@ -1241,6 +1232,7 @@ class Mission
 			};
 			id=365;
 			type="SOR_Launcher_Box_F";
+			atlOffset=-0.00021266937;
 		};
 		class Item56
 		{
@@ -1257,7 +1249,7 @@ class Mission
 			};
 			id=366;
 			type="SOR_A_Box_F";
-			atlOffset=4.3869019e-005;
+			atlOffset=-0.00039100647;
 		};
 		class Item57
 		{
@@ -1274,6 +1266,7 @@ class Mission
 			};
 			id=367;
 			type="SOR_S_Box_F";
+			atlOffset=-0.00043487549;
 		};
 		class Item58
 		{
@@ -1342,6 +1335,7 @@ class Mission
 			};
 			id=372;
 			type="ACE_Wheel";
+			atlOffset=-0.00012207031;
 		};
 		class Item62
 		{
@@ -1358,6 +1352,7 @@ class Mission
 			};
 			id=373;
 			type="ACE_Wheel";
+			atlOffset=-0.00015163422;
 		};
 		class Item63
 		{
@@ -1374,7 +1369,7 @@ class Mission
 			};
 			id=374;
 			type="ACE_Wheel";
-			atlOffset=2.1934509e-005;
+			atlOffset=-3.3378601e-005;
 		};
 		class Item64
 		{
@@ -1391,6 +1386,7 @@ class Mission
 			};
 			id=375;
 			type="ACE_Wheel";
+			atlOffset=-0.00015163422;
 		};
 		class Item65
 		{
@@ -1407,6 +1403,7 @@ class Mission
 			};
 			id=376;
 			type="ACE_Wheel";
+			atlOffset=-0.00026893616;
 		};
 		class Item66
 		{
@@ -1423,6 +1420,7 @@ class Mission
 			};
 			id=377;
 			type="ACE_Wheel";
+			atlOffset=-0.00023937225;
 		};
 		class Item67
 		{
@@ -1439,6 +1437,7 @@ class Mission
 			};
 			id=378;
 			type="ACE_Wheel";
+			atlOffset=-6.7234039e-005;
 		};
 		class Item68
 		{
@@ -1472,7 +1471,7 @@ class Mission
 			};
 			id=380;
 			type="ACE_Track";
-			atlOffset=0.00012254715;
+			atlOffset=0.00012493134;
 		};
 		class Item70
 		{
@@ -1489,7 +1488,7 @@ class Mission
 			};
 			id=381;
 			type="ACE_Track";
-			atlOffset=0.00010728836;
+			atlOffset=0.00010967255;
 		};
 		class Item71
 		{
@@ -1556,7 +1555,7 @@ class Mission
 			};
 			id=385;
 			type="ACE_Track";
-			atlOffset=9.0122223e-005;
+			atlOffset=8.2969666e-005;
 		};
 		class Item75
 		{
@@ -1573,7 +1572,7 @@ class Mission
 			};
 			id=386;
 			type="ACE_Track";
-			atlOffset=0.00012207031;
+			atlOffset=9.059906e-005;
 		};
 		class Item76
 		{
@@ -1600,7 +1599,6 @@ class Mission
 			};
 			id=391;
 			type="SOR_rhsusf_m113_usarmy_supply";
-			atlOffset=7.6293945e-006;
 		};
 		class Item78
 		{
@@ -2806,7 +2804,7 @@ class Mission
 			};
 			id=453;
 			type="SOR_rhsusf_m113_usarmy";
-			atlOffset=-4.7683716e-007;
+			atlOffset=-7.6293945e-006;
 		};
 		class Item114
 		{
@@ -3000,7 +2998,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
@@ -3022,6 +3020,294 @@ class Mission
 					id=610;
 					type="SOR_ZeusCommand_W";
 				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11625.227,6.9514389,13170.933};
+						angles[]={0,3.5005021,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="GODFATHER - Assistant";
+						isPlayable=1;
+					};
+					id=911;
+					type="SOR_ZeusCommand_W";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="Enh_onDamagedEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="false";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="Enh_onRespawnEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="false";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="Enh_taskPatrol_combatMode";
+							expression="_this setVariable ['Enh_randomPatrol_combatMode',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="YELLOW";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="Enh_taskPatrol_formation";
+							expression="_this setVariable ['Enh_randomPatrol_formation',_value]";
+							class Value
+							{
+								class data
+								{
+									nil=1;
+									class type
+									{
+										type[]=
+										{
+											"ANY"
+										};
+									};
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="Enh_taskPatrol_behaviour";
+							expression="_this setVariable ['Enh_randomPatrol_behaviour',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="SAFE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="Enh_taskPatrol_speed";
+							expression="_this setVariable ['Enh_randomPatrol_speedMode',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="LIMITED";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="Enh_animCombEquipment";
+							expression="_this setVariable ['Enh_animCombEquipment',_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ASIS";
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="Enh_animType";
+							expression="				if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};				if !(_value isEqualTo '' && isServer) then				{					[_this,_value] spawn					{						waitUntil {time > 0.2};						[_this select 0,_this select 1,(_this select 0) getVariable 'Enh_animEquipment'] remoteExec ['BIS_fnc_ambientAnim',0,true];					};				};			";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="Enh_onKilledEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="false";
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute11
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute12
+						{
+							property="Enh_animCombType";
+							expression="				if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};				if !(_value isEqualTo '' && isServer) then				{					[_this,_value] spawn					{						waitUntil {time > 0.2};						[_this select 0,_this select 1,(_this select 0) getVariable 'Enh_animCombEquipment'] remoteExec ['BIS_fnc_ambientAnimCombat',0,true];					};				};			";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute13
+						{
+							property="Enh_animEquipment";
+							expression="_this setVariable ['Enh_animEquipment',_value];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ASIS";
+								};
+							};
+						};
+						nAttributes=14;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -3029,3013 +3315,6 @@ class Mission
 			id=609;
 		};
 		class Item126
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11637.063,6.9514904,13159.575};
-						angles[]={0,3.4351678,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="COLONEL";
-						init="this setGroupID [""J""]; nul = [this,""J"",1] spawn SOR_fnc_markUnits;";
-						description="Airborne Command - JUPITER";
-						isPlayable=1;
-					};
-					id=612;
-					type="SOR_AirCommand_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=611;
-			atlOffset=5.1498413e-005;
-		};
-		class Item127
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11625.308,6.9514389,13163.046};
-						angles[]={0,3.4351678,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="COLONEL";
-						init="this setGroupID [""T""]; nul = [this,""T""] spawn SOR_fnc_markUnits; ";
-						description="Mechanised Command - TOMBSTONE";
-						isPlayable=1;
-					};
-					id=614;
-					type="SOR_MechCommand_W";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=613;
-		};
-		class Item128
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11616.284,6.9514389,13166.668};
-						angles[]={0,3.4284649,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupId [""H1""]; nul = [this,""H1""] spawn SOR_fnc_markUnits; ";
-						description="Infantry Command - HAVOC 1-1 Platoon Leader";
-						isPlayable=1;
-					};
-					id=616;
-					type="SOR_Commander_W";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11614.434,6.9514904,13167.432};
-						angles[]={0,3.4849844,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupId [""H1""]; ";
-						description="HAVOC 1-2 Platoon Sergeant";
-						isPlayable=1;
-					};
-					id=617;
-					type="SOR_Commander_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11612.621,6.9514904,13168.135};
-						angles[]={0,3.5496511,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupId [""H1""]; ";
-						description="HAVOC 1-3 RTO";
-						isPlayable=1;
-					};
-					id=618;
-					type="SOR_RTO_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11610.808,6.9514904,13168.839};
-						angles[]={0,3.6217256,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupId [""H1""]; nul = [this,""HM""] spawn SOR_fnc_markUnits; ";
-						description="HAVOC 1-4 Platoon Medic";
-						isPlayable=1;
-					};
-					id=619;
-					type="SOR_HMedic_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="LINE";
-			};
-			id=615;
-		};
-		class Item129
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11611.283,6.9514904,13163.999};
-						angles[]={0,0.33514643,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""A-A""]; nul = [this,""AA""] spawn SOR_fnc_markUnits; ";
-						description="ALPHA ACTUAL";
-						isPlayable=1;
-					};
-					id=621;
-					type="SOR_Actual_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11610.552,6.9514904,13162.11};
-						angles[]={0,0.33514643,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""A-A""]; ";
-						description="ALPHA MEDIC";
-						isPlayable=1;
-					};
-					id=622;
-					type="SOR_Medic_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=620;
-			atlOffset=5.1498413e-005;
-		};
-		class Item130
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11609.798,6.9514904,13160.011};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""A1""]; nul = [this,""A1""] spawn SOR_fnc_markUnits; ";
-						description="Alpha 1-1 Teamleader";
-						isPlayable=1;
-					};
-					id=624;
-					type="SOR_Teamleader_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11609.139,6.9514904,13158.137};
-						angles[]={0,0.32586098,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""A1""]; ";
-						description="Alpha 1-2 Autorifleman M249";
-						isPlayable=1;
-					};
-					id=625;
-					type="SOR_M249AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11608.522,6.9514904,13156.245};
-						angles[]={0,0.32586098,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""A1""]; ";
-						description="Alpha 1-3 Grenadier";
-						isPlayable=1;
-					};
-					id=626;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11607.835,6.9514904,13154.37};
-						angles[]={0,0.32586098,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""A1""]; ";
-						description="ALpha 1-4 Rifleman  AT Ammo Bearer (M249)";
-						isPlayable=1;
-					};
-					id=627;
-					type="SOR_Rifleman_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=623;
-			atlOffset=5.1498413e-005;
-		};
-		class Item131
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11606.427,6.9514904,13150.249};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""A2""]; ";
-						description="Alpha 2-2 Machine Gunner M240";
-						isPlayable=1;
-					};
-					id=629;
-					type="SOR_M240AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11605.793,6.9514904,13148.36};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""A2""]; ";
-						description="Alpha 2-3 Grenadier";
-						isPlayable=1;
-					};
-					id=630;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11605.134,6.9514904,13146.313};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""A2""]; ";
-						description="Alpha 2-4 Rifleman Ammo Bearer (M240)";
-						isPlayable=1;
-					};
-					id=631;
-					type="SOR_Rifleman_ammo_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11607.051,6.9514904,13152.164};
-						angles[]={0,0.32586336,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""A2""]; nul = [this,""A2""] spawn SOR_fnc_markUnits; ";
-						description="Alpha 2-1 Teamleader";
-						isPlayable=1;
-					};
-					id=632;
-					type="SOR_Teamleader2_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=628;
-			atlOffset=5.1498413e-005;
-		};
-		class Item132
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11613.193,6.9514904,13163.389};
-						angles[]={0,0.33514643,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""B-A""]; nul = [this,""BA""] spawn SOR_fnc_markUnits; ";
-						description="BRAVO ACTUAL";
-						isPlayable=1;
-					};
-					id=634;
-					type="SOR_Actual_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11612.524,6.9514904,13161.544};
-						angles[]={0,0.33514643,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""B-A""]; ";
-						description="BRAVO Medic";
-						isPlayable=1;
-					};
-					id=635;
-					type="SOR_Medic_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=633;
-			atlOffset=5.1498413e-005;
-		};
-		class Item133
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11611.715,6.9514904,13159.123};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""B1""]; nul = [this,""B1""] spawn SOR_fnc_markUnits; ";
-						description="Bravo 1-1 Teamleader";
-						isPlayable=1;
-					};
-					id=637;
-					type="SOR_Teamleader_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11611.041,6.9514904,13157.216};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""B1""]; ";
-						description="Bravo 1-2 Autorifleman M249";
-						isPlayable=1;
-					};
-					id=638;
-					type="SOR_M249AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11610.421,6.9514904,13155.349};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""B1""]; ";
-						description="Bravo 1-3 Grenadier";
-						isPlayable=1;
-					};
-					id=639;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11609.818,6.9514904,13153.394};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""B1""]; ";
-						description="Bravo 1-4 Rifleman  AT Ammo Bearer (M249)";
-						isPlayable=1;
-					};
-					id=640;
-					type="SOR_Rifleman_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=636;
-			atlOffset=5.1498413e-005;
-		};
-		class Item134
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11608.411,6.9514904,13149.33};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""B2""]; ";
-						description="Bravo 1-2 Machine Gunner M240";
-						isPlayable=1;
-					};
-					id=642;
-					type="SOR_M240AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11607.738,6.9514904,13147.436};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""B2""]; ";
-						description="Bravo 2-3 Grenadier";
-						isPlayable=1;
-					};
-					id=643;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11607.128,6.9514904,13145.521};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""B2""]; ";
-						description="Bravo 2-4 Rifleman Ammo Bearer (M240)";
-						isPlayable=1;
-					};
-					id=644;
-					type="SOR_Rifleman_ammo_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11609.003,6.9514904,13151.202};
-						angles[]={0,0.32586336,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""B2""]; nul = [this,""B2""] spawn SOR_fnc_markUnits; ";
-						description="Bravo 2-1 Teamleader";
-						isPlayable=1;
-					};
-					id=645;
-					type="SOR_Teamleader2_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=641;
-			atlOffset=5.1498413e-005;
-		};
-		class Item135
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11615.126,6.9514904,13162.543};
-						angles[]={0,0.33514643,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""C-A""]; nul = [this,""CA""] spawn SOR_fnc_markUnits; ";
-						description="CHARLIE ACTUAL";
-						isPlayable=1;
-					};
-					id=647;
-					type="SOR_Actual_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11614.46,6.9514904,13160.682};
-						angles[]={0,0.33514643,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""C-A""]; ";
-						description="CHARLIE MEDIC";
-						isPlayable=1;
-					};
-					id=648;
-					type="SOR_Medic_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=646;
-			atlOffset=5.1498413e-005;
-		};
-		class Item136
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11613.735,6.9514904,13158.66};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""C1""]; nul = [this,""C1""] spawn SOR_fnc_markUnits; ";
-						description="Charlie 1-1 Teamleader";
-						isPlayable=1;
-					};
-					id=650;
-					type="SOR_Teamleader_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11613.087,6.9514904,13156.774};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""C1""]; ";
-						description="Charlie 1-2 Autorifleman M249";
-						isPlayable=1;
-					};
-					id=651;
-					type="SOR_M249AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11612.425,6.9514904,13154.839};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""C1""]; ";
-						description="Charlie 1-3 Grenadier";
-						isPlayable=1;
-					};
-					id=652;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11611.721,6.9514904,13152.987};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""C1""]; ";
-						description="Charlie 1-4 Rifleman  AT Ammo Bearer (M249)";
-						isPlayable=1;
-					};
-					id=653;
-					type="SOR_Rifleman_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=649;
-			atlOffset=5.1498413e-005;
-		};
-		class Item137
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11610.396,6.9514904,13148.849};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""C2""]; ";
-						description="Charlie 2-2 Machine Gunner M240";
-						isPlayable=1;
-					};
-					id=655;
-					type="SOR_M240AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11609.768,6.9514904,13146.97};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""C2""]; ";
-						description="Charlie 2-3 Grenadier";
-						isPlayable=1;
-					};
-					id=656;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11609.091,6.9514904,13145.045};
-						angles[]={0,0.3258605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""C2""]; ";
-						description="Charlie 2-4 Rifleman Ammo Bearer (M240)";
-						isPlayable=1;
-					};
-					id=657;
-					type="SOR_Rifleman_ammo_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11611.024,6.9514904,13150.745};
-						angles[]={0,0.32586336,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""C2""]; nul = [this,""C2""] spawn SOR_fnc_markUnits; ";
-						description="Charlie 2-1 Teamleader";
-						isPlayable=1;
-					};
-					id=658;
-					type="SOR_Teamleader2_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=654;
-			atlOffset=5.1498413e-005;
-		};
-		class Item138
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11617.158,6.9514904,13161.849};
-						angles[]={0,0.35680532,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""D-A""]; nul = [this,""DA""] spawn SOR_fnc_markUnits; ";
-						description="DELTA ACTUAL";
-						isPlayable=1;
-					};
-					id=660;
-					type="SOR_Actual_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11616.46,6.9514904,13159.981};
-						angles[]={0,0.35680532,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						init="this setGroupID [""D-A""]; ";
-						description="DELTA MEDIC";
-						isPlayable=1;
-					};
-					id=661;
-					type="SOR_Medic_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=659;
-			atlOffset=5.1498413e-005;
-		};
-		class Item139
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11615.803,6.9514904,13157.866};
-						angles[]={0,0.29837179,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""D1""]; nul = [this,""D1""] spawn SOR_fnc_markUnits; ";
-						description="Delta 1-1 Teamleader";
-						isPlayable=1;
-					};
-					id=663;
-					type="SOR_Teamleader_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11615.224,6.9514904,13155.958};
-						angles[]={0,0.29837179,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""D1""]; ";
-						description="Delta 1-2 Autorifleman M249";
-						isPlayable=1;
-					};
-					id=664;
-					type="SOR_M249AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11614.587,6.9514904,13154.013};
-						angles[]={0,0.29837179,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""D1""]; ";
-						description="Delta 1-3 Grenadier";
-						isPlayable=1;
-					};
-					id=665;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11614.045,6.9514904,13152.102};
-						angles[]={0,0.29837179,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""D1""]; ";
-						description="Delta 1-4 Rifleman  AT Ammo Bearer (M249)";
-						isPlayable=1;
-					};
-					id=666;
-					type="SOR_Rifleman_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=662;
-			atlOffset=5.1498413e-005;
-		};
-		class Item140
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11613.326,6.9514904,13149.9};
-						angles[]={0,0.32137823,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupID [""D2""]; nul = [this,""D2""] spawn SOR_fnc_markUnits; ";
-						description="Delta 2-1 Teamleader";
-						isPlayable=1;
-					};
-					id=671;
-					type="SOR_Teamleader2_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11612.69,6.9514904,13148.018};
-						angles[]={0,0.32137537,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""D2""]; ";
-						description="Delta 2-2 MachineGunner ";
-						isPlayable=1;
-					};
-					id=668;
-					type="SOR_M240AR_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11612.046,6.9514904,13146.107};
-						angles[]={0,0.32137537,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""D2""]; ";
-						description="Delta 2-3 Grenadier";
-						isPlayable=1;
-					};
-					id=669;
-					type="SOR_Grenadier_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11611.437,6.9514904,13144.232};
-						angles[]={0,0.32137537,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupID [""D2""]; ";
-						description="Delta 2-4 Rifleman Ammo Bearer (M240)";
-						isPlayable=1;
-					};
-					id=670;
-					type="SOR_Rifleman_ammo_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=667;
-			atlOffset=5.1498413e-005;
-		};
-		class Item141
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11620.639,6.9515171,13161.391};
-						angles[]={0,0.21750307,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""S1""]; nul = [this,""S1""] spawn SOR_fnc_markUnits; ";
-						description="Sabre 1-1 Commander";
-						isPlayable=1;
-					};
-					id=673;
-					type="SOR_MechCrewCommander_W";
-					atlOffset=7.8201294e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11620.009,6.9514389,13159.511};
-						angles[]={0,0.21900129,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""S1""]; ";
-						description="Sabre 1-2 Driver";
-						isPlayable=1;
-					};
-					id=674;
-					type="SOR_MechDriver_W";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11619.335,6.9514389,13157.535};
-						angles[]={0,0.23593473,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""S1""]; ";
-						description="Sabre 1-3 Gunner";
-						isPlayable=1;
-					};
-					id=675;
-					type="SOR_MechCrew_W";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11618.781,6.9514389,13155.74};
-						angles[]={0,0.23749304,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""S1""]; ";
-						description="Sabre 1-4 Loader";
-						isPlayable=1;
-					};
-					id=676;
-					type="SOR_MechOperator_W";
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=672;
-			atlOffset=7.8201294e-005;
-		};
-		class Item142
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11622.677,6.9515495,13160.681};
-						angles[]={0,0.30433035,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""S2""]; nul = [this,""S2""] spawn SOR_fnc_markUnits; ";
-						description="Sabre 2-1 Commander";
-						isPlayable=1;
-					};
-					id=678;
-					type="SOR_MechCrewCommander_W";
-					atlOffset=0.00011062622;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11622.146,6.9516315,13158.668};
-						angles[]={0,0.28249454,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""S2""]; ";
-						description="Sabre 2-2 Driver";
-						isPlayable=1;
-					};
-					id=679;
-					type="SOR_MechDriver_W";
-					atlOffset=0.00019264221;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11621.584,6.9516315,13156.85};
-						angles[]={0,0.3504262,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""S2""]; ";
-						description="Sabre 2-3 Gunner";
-						isPlayable=1;
-					};
-					id=680;
-					type="SOR_MechCrew_W";
-					atlOffset=0.00019264221;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11621.018,6.9516315,13154.904};
-						angles[]={0,0.29085064,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""S2""]; ";
-						description="Sabre 2-4 Loader";
-						isPlayable=1;
-					};
-					id=681;
-					type="SOR_MechOperator_W";
-					atlOffset=0.00019264221;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=677;
-			atlOffset=0.00011062622;
-		};
-		class Item143
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11624.703,6.9514389,13160.137};
-						angles[]={0,0.27829695,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""R1""]; nul = [this,""R1""] spawn SOR_fnc_markUnits; ";
-						description="Rhino 1-1 Commander";
-						isPlayable=1;
-					};
-					id=683;
-					type="SOR_MechCrewCommander_W";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11624.169,6.951622,13158.116};
-						angles[]={0,0.27668238,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""R1""]; ";
-						description="Rhino 1-2 Driver";
-						isPlayable=1;
-					};
-					id=684;
-					type="SOR_MechDriver_W";
-					atlOffset=0.00018310547;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11623.584,6.951622,13156.193};
-						angles[]={0,0.27794123,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""R1""]";
-						description="Rhino 1-3 Gunner";
-						isPlayable=1;
-					};
-					id=685;
-					type="SOR_MechCrew_W";
-					atlOffset=0.00018310547;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=682;
-		};
-		class Item144
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11626.536,6.9514828,13159.459};
-						angles[]={0,0.25509977,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""R2""]; nul = [this,""R2""] spawn SOR_fnc_markUnits; ";
-						description="Rhino 2-1 Commander";
-						isPlayable=1;
-					};
-					id=687;
-					type="SOR_MechCrewCommander_W";
-					atlOffset=4.3869019e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11626.02,6.9520626,13157.521};
-						angles[]={0,0.25038862,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""R2""]; ";
-						description="Rhino 2-2 Driver";
-						isPlayable=1;
-					};
-					id=688;
-					type="SOR_MechDriver_W";
-					atlOffset=0.000623703;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11625.402,6.9520626,13155.608};
-						angles[]={0,0.32103634,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""R2""]; ";
-						description="Rhino 2-3 Gunner";
-						isPlayable=1;
-					};
-					id=689;
-					type="SOR_MechCrew_W";
-					atlOffset=0.000623703;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=686;
-			atlOffset=4.3869019e-005;
-		};
-		class Item145
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11628.368,6.9515171,13158.86};
-						angles[]={0,0.26999998,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""R3""]; nul = [this,""R3""] spawn SOR_fnc_markUnits; ";
-						description="Rhino 3-1 Commander";
-						isPlayable=1;
-					};
-					id=691;
-					type="SOR_MechCrewCommander_W";
-					atlOffset=7.8201294e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11627.881,6.9515171,13156.914};
-						angles[]={0,0.24743414,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""R3""]; ";
-						description="Rhino 3-2 Driver";
-						isPlayable=1;
-					};
-					id=692;
-					type="SOR_MechDriver_W";
-					atlOffset=7.8201294e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11627.293,6.9515171,13154.992};
-						angles[]={0,0.27602577,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""R3""]; ";
-						description="Rhino 3-3 Gunner";
-						isPlayable=1;
-					};
-					id=693;
-					type="SOR_MechCrew_W";
-					atlOffset=7.8201294e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=690;
-			atlOffset=7.8201294e-005;
-		};
-		class Item146
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11623.101,6.9514389,13153.841};
-						angles[]={0,0.30023527,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""O1""]; nul = [this,""O1""] spawn SOR_fnc_markUnits; ";
-						description="Outlaw 1-1 Commander";
-						isPlayable=1;
-					};
-					id=695;
-					type="SOR_MechCrewCommander_W";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11622.444,6.9514904,13151.929};
-						angles[]={0,0.32760859,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""O1""]; ";
-						description="Outlaw 1-2 Driver";
-						isPlayable=1;
-					};
-					id=696;
-					type="SOR_MechDriver_W";
-					atlOffset=5.1498413e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=694;
-		};
-		class Item147
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11624.735,6.9514751,13153.335};
-						angles[]={0,0.26051474,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""O2""]; nul = [this,""O2""] spawn SOR_fnc_markUnits; ";
-						description="Outlaw 2-1 Commander";
-						isPlayable=1;
-					};
-					id=698;
-					type="SOR_MechCrewCommander_W";
-					atlOffset=3.6239624e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11624.154,6.9515057,13151.355};
-						angles[]={0,0.30684996,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""O2""]; ";
-						description="Outlaw 2-2 Driver";
-						isPlayable=1;
-					};
-					id=699;
-					type="SOR_MechDriver_W";
-					atlOffset=6.6757202e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=697;
-			atlOffset=3.6239624e-005;
-		};
-		class Item148
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11626.632,6.9516315,13152.744};
-						angles[]={0,0.24822664,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""O3""]; nul = [this,""O3""] spawn SOR_fnc_markUnits; ";
-						description="Outlaw 3-1 Commander";
-						isPlayable=1;
-					};
-					id=701;
-					type="SOR_MechCrewCommander_W";
-					atlOffset=0.00019264221;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11626.106,6.9516506,13150.719};
-						angles[]={0,0.29269743,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""O3""]; ";
-						description="Outlaw 3-2 Driver";
-						isPlayable=1;
-					};
-					id=702;
-					type="SOR_MechDriver_W";
-					atlOffset=0.0002117157;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=700;
-			atlOffset=0.00019264221;
-		};
-		class Item149
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11632.003,6.9514904,13157.988};
-						angles[]={0,0.34520149,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""AG1""]; nul = [this,""AG1"",1] spawn SOR_fnc_markUnits; ";
-						description="Angel 1-1 Pilot";
-						isPlayable=1;
-					};
-					id=704;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11631.322,6.9514637,13156.063};
-						angles[]={0,0.31681633,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG1""]; ";
-						description="Angel 1-2 CoPilot";
-						isPlayable=1;
-					};
-					id=705;
-					type="SOR_HeliPilot_W";
-					atlOffset=2.4795532e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11630.667,6.9514809,13154.09};
-						angles[]={0,0.27795458,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG1""]; ";
-						description="Angel 1-3 Crew Chief";
-						isPlayable=1;
-					};
-					id=706;
-					type="SOR_HeliCrew_W";
-					atlOffset=4.196167e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11630.048,6.9514828,13152.369};
-						angles[]={0,0.28409815,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG1""]; ";
-						description="Angel 1-4 Door Gunner";
-						isPlayable=1;
-					};
-					id=707;
-					type="SOR_HeliCrew_W";
-					atlOffset=4.3869019e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=703;
-			atlOffset=5.1498413e-005;
-		};
-		class Item150
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11634.267,6.9514904,13157.188};
-						angles[]={0,0.38740349,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""AG2""]; nul = [this,""AG2"",1] spawn SOR_fnc_markUnits; ";
-						description="Angel 2-1 Pilot";
-						isPlayable=1;
-					};
-					id=709;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11633.525,6.9515114,13155.269};
-						angles[]={0,0.31012201,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG2""]; ";
-						description="Angel 2-2 CoPilot";
-						isPlayable=1;
-					};
-					id=710;
-					type="SOR_HeliPilot_W";
-					atlOffset=7.2479248e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11632.953,6.951498,13153.431};
-						angles[]={0,0.26669645,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						description="Angel 2-3 Crew Chief";
-						isPlayable=1;
-					};
-					id=711;
-					type="SOR_HeliCrew_W";
-					atlOffset=5.9127808e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11632.308,6.9514828,13151.572};
-						angles[]={0,0.27947855,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						description="Angel 2-4 Door Gunner";
-						isPlayable=1;
-					};
-					id=712;
-					type="SOR_HeliCrew_W";
-					atlOffset=4.3869019e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=708;
-			atlOffset=5.1498413e-005;
-		};
-		class Item151
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11636.495,6.9514904,13156.445};
-						angles[]={0,0.31429148,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""AG3""]; nul = [this,""AG3"",1] spawn SOR_fnc_markUnits; ";
-						description="Angel 3-1 Pilot";
-						isPlayable=1;
-					};
-					id=714;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11635.691,6.9514656,13154.489};
-						angles[]={0,0.28527308,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG3""]; ";
-						description="Angel 1-2 CoPilot";
-						isPlayable=1;
-					};
-					id=715;
-					type="SOR_HeliPilot_W";
-					atlOffset=2.6702881e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11635.136,6.9514999,13152.756};
-						angles[]={0,0.29772329,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG2""]; ";
-						description="Angel 3-3 Crew Chief";
-						isPlayable=1;
-					};
-					id=716;
-					type="SOR_HeliCrew_W";
-					atlOffset=6.1035156e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11634.522,6.9514694,13150.862};
-						angles[]={0,0.28500605,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG2""]; ";
-						description="Angel 3-4 Door Gunner";
-						isPlayable=1;
-					};
-					id=717;
-					type="SOR_HeliCrew_W";
-					atlOffset=3.0517578e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=713;
-			atlOffset=5.1498413e-005;
-		};
-		class Item152
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11638.63,6.9514904,13155.683};
-						angles[]={0,0.27729082,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""AG4""]; nul = [this,""AG4"",1] spawn SOR_fnc_markUnits; ";
-						description="Angel 4-1 Pilot";
-						isPlayable=1;
-					};
-					id=719;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11637.23,6.9514694,13151.957};
-						angles[]={0,0.27865934,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG4""]; ";
-						description="Angel 4-3 Crew Chief";
-						isPlayable=1;
-					};
-					id=720;
-					type="SOR_HeliCrew_W";
-					atlOffset=3.0517578e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11636.643,6.9514885,13150.143};
-						angles[]={0,0.28550434,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG4""]; ";
-						description="Angel 4-4 Door Gunner";
-						isPlayable=1;
-					};
-					id=721;
-					type="SOR_HeliCrew_W";
-					atlOffset=4.9591064e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11637.909,6.95154,13153.778};
-						angles[]={0,0.26931477,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""AG4""]; ";
-						description="Angel 4-2 CoPilot";
-						isPlayable=1;
-					};
-					id=722;
-					type="SOR_HeliPilot_W";
-					atlOffset=0.00010108948;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=718;
-			atlOffset=5.1498413e-005;
-		};
-		class Item153
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11635.88,6.9514904,13147.899};
-						angles[]={0,0.33877897,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""P1""]; nul = [this,""P1"",1] spawn SOR_fnc_markUnits; ";
-						description="Pegasus 1-1 Pilot";
-						isPlayable=1;
-					};
-					id=724;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11635.182,6.9516487,13146.054};
-						angles[]={0,0.3230381,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""P1""]; ";
-						description="Pegasus 1-2 CoPilot";
-						isPlayable=1;
-					};
-					id=725;
-					type="SOR_HeliPilot_W";
-					atlOffset=0.00020980835;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=723;
-			atlOffset=5.1498413e-005;
-		};
-		class Item154
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11633.732,6.9514904,13148.776};
-						angles[]={0,0.34947777,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""P2""]; nul = [this,""P2"",1] spawn SOR_fnc_markUnits; ";
-						description="Pegasus 2-1 Pilot";
-						isPlayable=1;
-					};
-					id=727;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11633.084,6.951828,13146.833};
-						angles[]={0,0.33195448,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""P2""]; ";
-						description="Pegasus 2-2 CoPilot";
-						isPlayable=1;
-					};
-					id=728;
-					type="SOR_HeliPilot_W";
-					atlOffset=0.00038909912;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=726;
-			atlOffset=5.1498413e-005;
-		};
-		class Item155
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11631.537,6.9514904,13149.49};
-						angles[]={0,0.32602024,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""P3""]; nul = [this,""P3"",1] spawn SOR_fnc_markUnits; ";
-						description="Pegasus 3-1 Pilot";
-						isPlayable=1;
-					};
-					id=730;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11630.919,6.9516068,13147.59};
-						angles[]={0,0.34017611,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""P3""]; ";
-						description="Pegasus 3-2 CoPilot";
-						isPlayable=1;
-					};
-					id=731;
-					type="SOR_HeliPilot_W";
-					atlOffset=0.00016784668;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=729;
-			atlOffset=5.1498413e-005;
-		};
-		class Item156
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11629.599,6.9514904,13150.139};
-						angles[]={0,0.3086195,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""P4""]; nul = [this,""P4"",1] spawn SOR_fnc_markUnits; ";
-						description="Pegasus 4-1 Pilot";
-						isPlayable=1;
-					};
-					id=733;
-					type="SOR_HeliPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11628.951,6.9515171,13148.271};
-						angles[]={0,0.35040998,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupID [""P4""]; ";
-						description="Pegasus 4-2 CoPilot";
-						isPlayable=1;
-					};
-					id=734;
-					type="SOR_HeliPilot_W";
-					atlOffset=7.8201294e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=732;
-			atlOffset=5.1498413e-005;
-		};
-		class Item157
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11640.578,6.9514904,13154.912};
-						angles[]={0,0.22107363,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="CAPTAIN";
-						init="this setGroupID [""MEV""]; nul = [this,""MEV"",1] spawn SOR_fnc_markUnits; ";
-						description="MEV Pilot";
-						isPlayable=1;
-					};
-					id=736;
-					type="SOR_MEVPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11639.929,6.9514904,13153.029};
-						angles[]={0,0.34195995,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						rank="LIEUTENANT";
-						init="this setGroupID [""MEV""]; ";
-						description="MEV CoPilot";
-						isPlayable=1;
-					};
-					id=737;
-					type="SOR_MEVPilot_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11639.251,6.9514732,13151.186};
-						angles[]={0,0.29124975,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						rank="SERGEANT";
-						init="nul = [this,""PJ1""] spawn SOR_fnc_markUnits; ";
-						description="MEV ParaJumper";
-						isPlayable=1;
-					};
-					id=738;
-					type="SOR_ParaJumper_W";
-					atlOffset=3.4332275e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11638.56,6.9514904,13149.209};
-						angles[]={0,0.29599237,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						rank="SERGEANT";
-						init="nul = [this,""PJ2""] spawn SOR_fnc_markUnits; ";
-						description="MEV ParaJumper";
-						isPlayable=1;
-					};
-					id=739;
-					type="SOR_ParaJumper_W";
-					atlOffset=5.1498413e-005;
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11637.883,6.9514771,13147.333};
-						angles[]={0,0.2961154,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						rank="SERGEANT";
-						init="nul = [this,""PJ3""] spawn SOR_fnc_markUnits; ";
-						description="MEV ParaJumper";
-						isPlayable=1;
-					};
-					id=740;
-					type="SOR_ParaJumper_W";
-					atlOffset=3.8146973e-005;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=735;
-			atlOffset=5.1498413e-005;
-		};
-		class Item158
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11806.948,6.951438,13099.832};
-						angles[]={0,3.4340844,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""E1""]; nul = [this,""E1""] spawn SOR_fnc_markUnits";
-						description="Eagle 1 Pilot";
-						isPlayable=1;
-					};
-					id=752;
-					type="SOR_JetPilot_W";
-					atlOffset=-9.5367432e-007;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11807.48,6.9514389,13102.047};
-						angles[]={0,3.4340925,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						description="Eagle 1 CoPilot";
-						isPlayable=1;
-					};
-					id=899;
-					type="SOR_JetPilot_W";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=751;
-			atlOffset=-9.5367432e-007;
-		};
-		class Item159
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11809.037,6.951438,13099.149};
-						angles[]={0,3.4340844,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""E2""]; nul = [this,""E2""] spawn SOR_fnc_markUnits";
-						description="Eagle 2 Pilot";
-						isPlayable=1;
-					};
-					id=754;
-					type="SOR_JetPilot_W";
-					atlOffset=-9.5367432e-007;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11809.573,6.9514389,13101.439};
-						angles[]={0,3.4340925,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						description="Eagle 2 CoPilot";
-						isPlayable=1;
-					};
-					id=901;
-					type="SOR_JetPilot_W";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=753;
-			atlOffset=-9.5367432e-007;
-		};
-		class Item160
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11811.036,6.951438,13098.452};
-						angles[]={0,3.4340844,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""E3""]; nul = [this,""E3""] spawn SOR_fnc_markUnits";
-						description="Eagle 3 Pilot";
-						isPlayable=1;
-					};
-					id=756;
-					type="SOR_JetPilot_W";
-					atlOffset=-9.5367432e-007;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11811.67,6.9514389,13100.835};
-						angles[]={0,3.4340925,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						description="Eagle 3 CoPilot";
-						isPlayable=1;
-					};
-					id=903;
-					type="SOR_JetPilot_W";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=755;
-			atlOffset=-9.5367432e-007;
-		};
-		class Item161
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11812.839,6.951438,13097.936};
-						angles[]={0,3.4340844,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						init="this setGroupID [""E4""]; nul = [this,""E4""] spawn SOR_fnc_markUnits";
-						description="Eagle 4 Pilot";
-						isPlayable=1;
-					};
-					id=758;
-					type="SOR_JetPilot_W";
-					atlOffset=-9.5367432e-007;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11813.49,6.9514389,13100.171};
-						angles[]={0,3.4340925,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.55000001;
-						rank="LIEUTENANT";
-						description="Eagle 4 CoPilot";
-						isPlayable=1;
-					};
-					id=905;
-					type="SOR_JetPilot_W";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=757;
-			atlOffset=-9.5367432e-007;
-		};
-		class Item162
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11609.25,6.9514389,13164.715};
-						angles[]={0,0.32900238,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this setGroupId [""V1""]; nul = [this,""V""] spawn SOR_fnc_markUnits; ";
-						description="Viper 1-1 Actual";
-						isPlayable=1;
-					};
-					id=760;
-					type="SOR_ReconLeader_W";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11608.534,6.9515953,13162.648};
-						angles[]={0,0.32900238,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.44999999;
-						rank="CORPORAL";
-						init="this setGroupId [""V1""]; ";
-						description="Viper 1-2 JTAC";
-						isPlayable=1;
-					};
-					id=761;
-					type="SOR_ReconJTAC_W";
-					atlOffset=0.00015640259;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11607.095,6.9515953,13158.582};
-						angles[]={0,0.32900238,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupId [""V1""]; ";
-						description="Viper 1-3 Rifleman";
-						isPlayable=1;
-					};
-					id=762;
-					type="SOR_ReconRifleman_W";
-					atlOffset=0.00015640259;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11607.791,6.9515953,13160.575};
-						angles[]={0,0.32900238,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.40000001;
-						init="this setGroupId [""V1""]; ";
-						description="Viper 1-4 Rifleman";
-						isPlayable=1;
-					};
-					id=763;
-					type="SOR_ReconRifleman_W";
-					atlOffset=0.00015640259;
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=759;
-		};
-		class Item163
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11606.74,6.9514389,13165.516};
-						angles[]={0,0.36828947,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						init="this setGroupId [""BS1""]; nul = [this,""BS1""] spawn SOR_fnc_markUnits; ";
-						description="Blacksmith 1-1 Engineer Team Leader";
-						isPlayable=1;
-					};
-					id=765;
-					type="SOR_Engineer_Teamleader_W";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11605.128,6.9514389,13161.34};
-						angles[]={0,0.35327959,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="this setGroupId [""BS1""]; nul = [this,""BS3""] spawn SOR_fnc_markUnits; ";
-						description="Blacksmith 1-3 Engineer";
-						isPlayable=1;
-					};
-					id=766;
-					type="SOR_Engineer_W";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11604.37,6.9514389,13159.228};
-						angles[]={0,0.36312342,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="this setGroupId [""BS1""]; nul = [this,""BS4""] spawn SOR_fnc_markUnits; ";
-						description="Blacksmith 1-4 Engineer";
-						isPlayable=1;
-					};
-					id=767;
-					type="SOR_Engineer_W";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={11605.895,6.9514389,13163.432};
-						angles[]={0,0.36059523,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="this setGroupId [""BS1""]; nul = [this,""BS2""] spawn SOR_fnc_markUnits; ";
-						description="Blacksmith 1-2 Engineer";
-						isPlayable=1;
-					};
-					id=768;
-					type="SOR_Engineer_Teamleader_W";
-				};
-			};
-			class Attributes
-			{
-				formation="FILE";
-			};
-			id=764;
-		};
-		class Item164
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6145,7 +3424,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item165
+		class Item127
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6180,7 +3459,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item166
+		class Item128
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6253,7 +3532,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item167
+		class Item129
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6383,7 +3662,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item168
+		class Item130
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6437,7 +3716,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item169
+		class Item131
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6529,7 +3808,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item170
+		class Item132
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6716,7 +3995,7 @@ class Mission
 				nAttributes=9;
 			};
 		};
-		class Item171
+		class Item133
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6751,7 +4030,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item172
+		class Item134
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7033,7 +4312,7 @@ class Mission
 				nAttributes=14;
 			};
 		};
-		class Item173
+		class Item135
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7087,7 +4366,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item174
+		class Item136
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7122,7 +4401,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item175
+		class Item137
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7194,7 +4473,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item176
+		class Item138
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7305,7 +4584,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item177
+		class Item139
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7416,7 +4695,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item178
+		class Item140
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7434,7 +4713,7 @@ class Mission
 			type="SOR_Land_Medevac_HQ_V1_F";
 			atlOffset=0.41366768;
 		};
-		class Item179
+		class Item141
 		{
 			dataType="Marker";
 			position[]={11511.239,6.9499998,13177.852};
@@ -7445,7 +4724,7 @@ class Mission
 			angle=272.39651;
 			id=856;
 		};
-		class Item180
+		class Item142
 		{
 			dataType="Marker";
 			position[]={11494.724,7.3089361,13183.079};
@@ -7457,7 +4736,7 @@ class Mission
 			id=857;
 			atlOffset=0.079837799;
 		};
-		class Item181
+		class Item143
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7476,7 +4755,7 @@ class Mission
 			id=858;
 			type="SOR_HMG_Crate_F";
 		};
-		class Item182
+		class Item144
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7496,7 +4775,7 @@ class Mission
 			type="SOR_HMG_Crate_F";
 			atlOffset=-0.01924181;
 		};
-		class Item183
+		class Item145
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7516,7 +4795,7 @@ class Mission
 			type="SOR_AM_Crate_F";
 			atlOffset=-7.2956085e-005;
 		};
-		class Item184
+		class Item146
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7535,7 +4814,7 @@ class Mission
 			id=861;
 			type="SOR_A_Crate_F";
 		};
-		class Item185
+		class Item147
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7552,7 +4831,7 @@ class Mission
 			id=862;
 			type="SOR_A_Box_F";
 		};
-		class Item186
+		class Item148
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7569,7 +4848,7 @@ class Mission
 			id=863;
 			type="SOR_A_Box_F";
 		};
-		class Item187
+		class Item149
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7586,7 +4865,7 @@ class Mission
 			id=864;
 			type="SOR_A_Box_F";
 		};
-		class Item188
+		class Item150
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7604,7 +4883,7 @@ class Mission
 			type="SOR_A_Box_F";
 			atlOffset=4.5776367e-005;
 		};
-		class Item189
+		class Item151
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7617,12 +4896,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=866;
 			type="SOR_M_Box_F";
 		};
-		class Item190
+		class Item152
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7641,7 +4919,7 @@ class Mission
 			type="SOR_M_Box_F";
 			atlOffset=3.4332275e-005;
 		};
-		class Item191
+		class Item153
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7659,7 +4937,7 @@ class Mission
 			id=868;
 			type="Land_JumpTarget_F";
 		};
-		class Item192
+		class Item154
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7677,7 +4955,7 @@ class Mission
 			id=869;
 			type="Land_JumpTarget_F";
 		};
-		class Item193
+		class Item155
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7690,12 +4968,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=870;
 			type="SOR_G_Box_F";
 		};
-		class Item194
+		class Item156
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7708,12 +4985,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=871;
 			type="SOR_G_Box_F";
 		};
-		class Item195
+		class Item157
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7726,12 +5002,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=872;
 			type="SOR_E_Box_F";
 		};
-		class Item196
+		class Item158
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7744,12 +5019,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=873;
 			type="SOR_E_Box_F";
 		};
-		class Item197
+		class Item159
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7767,7 +5041,7 @@ class Mission
 			id=874;
 			type="SOR_M_Box_F";
 		};
-		class Item198
+		class Item160
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7780,12 +5054,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=875;
 			type="SOR_S_Box_F";
 		};
-		class Item199
+		class Item161
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7798,12 +5071,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=876;
 			type="SOR_S_Box_F";
 		};
-		class Item200
+		class Item162
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7816,12 +5088,11 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				description="Infantry Command - GODFATHER";
 			};
 			id=877;
 			type="SOR_G_Box_F";
 		};
-		class Item201
+		class Item163
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7840,7 +5111,7 @@ class Mission
 			type="Land_JumpTarget_F";
 			atlOffset=0.12609243;
 		};
-		class Item202
+		class Item164
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7858,7 +5129,7 @@ class Mission
 			type="SOR_Box_NATO_WpsSpecial_F";
 			atlOffset=-0.073257923;
 		};
-		class Item203
+		class Item165
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7874,7 +5145,7 @@ class Mission
 			id=880;
 			type="SOR_HW_Box_F";
 		};
-		class Item204
+		class Item166
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7890,7 +5161,7 @@ class Mission
 			id=881;
 			type="SOR_Launcher_Box_F";
 		};
-		class Item205
+		class Item167
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7906,7 +5177,7 @@ class Mission
 			id=882;
 			type="SOR_Launcher_Box_F";
 		};
-		class Item206
+		class Item168
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7922,7 +5193,7 @@ class Mission
 			id=883;
 			type="SOR_Launcher_Box_F";
 		};
-		class Item207
+		class Item169
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7940,7 +5211,7 @@ class Mission
 			type="SOR_AmmoContainer";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item208
+		class Item170
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7958,7 +5229,7 @@ class Mission
 			type="SOR_FuelContainer";
 			atlOffset=-0.01459074;
 		};
-		class Item209
+		class Item171
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7998,7 +5269,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item210
+		class Item172
 		{
 			dataType="Trigger";
 			position[]={11439.68,6.9499998,13197.901};
@@ -8016,7 +5287,7 @@ class Mission
 			id=887;
 			type="EmptyDetectorAreaR50";
 		};
-		class Item211
+		class Item173
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8032,7 +5303,7 @@ class Mission
 			id=894;
 			type="SOR_rhsusf_m1a1aimd_usarmy_wd";
 		};
-		class Item212
+		class Item174
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8048,7 +5319,7 @@ class Mission
 			id=895;
 			type="SOR_rhsusf_m1a2sep1d_usarmy_wd";
 		};
-		class Item213
+		class Item175
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8064,7 +5335,7 @@ class Mission
 			id=896;
 			type="SOR_rhsusf_m1a1aimd_usarmy_wd";
 		};
-		class Item214
+		class Item176
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8080,7 +5351,7 @@ class Mission
 			id=897;
 			type="SOR_rhsusf_m1a2sep1d_usarmy_wd";
 		};
-		class Item215
+		class Item177
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8096,7 +5367,7 @@ class Mission
 			id=909;
 			type="SOR_FIGHTER";
 		};
-		class Item216
+		class Item178
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8111,6 +5382,3005 @@ class Mission
 			};
 			id=910;
 			type="SOR_STRIKE_FIGHTER";
+		};
+		class Item179
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11637.063,6.9514904,13159.575};
+						angles[]={0,3.4351678,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="COLONEL";
+						init="this setGroupID [""J""]; nul = [this,""J"",1] spawn SOR_fnc_markUnits;";
+						description="Airborne Command - JUPITER";
+						isPlayable=1;
+					};
+					id=913;
+					type="SOR_AirCommand_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=912;
+			atlOffset=5.1498413e-005;
+		};
+		class Item180
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11625.308,6.9514389,13163.046};
+						angles[]={0,3.4351678,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="COLONEL";
+						init="this setGroupID [""T""]; nul = [this,""T""] spawn SOR_fnc_markUnits; ";
+						description="Mechanised Command - TOMBSTONE";
+						isPlayable=1;
+					};
+					id=915;
+					type="SOR_MechCommand_W";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=914;
+		};
+		class Item181
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11616.284,6.9514389,13166.668};
+						angles[]={0,3.4284649,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupId [""H1""]; nul = [this,""H1""] spawn SOR_fnc_markUnits; ";
+						description="Infantry Command - HAVOC 1-1 Platoon Leader";
+						isPlayable=1;
+					};
+					id=917;
+					type="SOR_Commander_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11614.434,6.9514904,13167.432};
+						angles[]={0,3.4849844,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupId [""H1""]; ";
+						description="HAVOC 1-2 Platoon Sergeant";
+						isPlayable=1;
+					};
+					id=918;
+					type="SOR_Commander_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11612.621,6.9514904,13168.135};
+						angles[]={0,3.5496511,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupId [""H1""]; ";
+						description="HAVOC 1-3 RTO";
+						isPlayable=1;
+					};
+					id=919;
+					type="SOR_RTO_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11610.808,6.9514904,13168.839};
+						angles[]={0,3.6217256,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupId [""H1""]; nul = [this,""HM""] spawn SOR_fnc_markUnits; ";
+						description="HAVOC 1-4 Platoon Medic";
+						isPlayable=1;
+					};
+					id=920;
+					type="SOR_HMedic_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="LINE";
+			};
+			id=916;
+		};
+		class Item182
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11611.283,6.9514904,13163.999};
+						angles[]={0,0.33514643,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""A-A""]; nul = [this,""AA""] spawn SOR_fnc_markUnits; ";
+						description="ALPHA ACTUAL";
+						isPlayable=1;
+					};
+					id=922;
+					type="SOR_Actual_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11610.552,6.9514904,13162.11};
+						angles[]={0,0.33514643,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""A-A""]; ";
+						description="ALPHA MEDIC";
+						isPlayable=1;
+					};
+					id=923;
+					type="SOR_Medic_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=921;
+			atlOffset=5.1498413e-005;
+		};
+		class Item183
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11609.798,6.9514904,13160.011};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""A1""]; nul = [this,""A1""] spawn SOR_fnc_markUnits; ";
+						description="Alpha 1-1 Teamleader";
+						isPlayable=1;
+					};
+					id=925;
+					type="SOR_Teamleader_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11609.139,6.9514904,13158.137};
+						angles[]={0,0.32586098,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""A1""]; ";
+						description="Alpha 1-2 Autorifleman M249";
+						isPlayable=1;
+					};
+					id=926;
+					type="SOR_M249AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11608.522,6.9514904,13156.245};
+						angles[]={0,0.32586098,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""A1""]; ";
+						description="Alpha 1-3 Grenadier";
+						isPlayable=1;
+					};
+					id=927;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11607.835,6.9514904,13154.37};
+						angles[]={0,0.32586098,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""A1""]; ";
+						description="ALpha 1-4 Rifleman  AT Ammo Bearer (M249)";
+						isPlayable=1;
+					};
+					id=928;
+					type="SOR_Rifleman_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=924;
+			atlOffset=5.1498413e-005;
+		};
+		class Item184
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11607.051,6.9514904,13152.164};
+						angles[]={0,0.32586336,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""A2""]; nul = [this,""A2""] spawn SOR_fnc_markUnits; ";
+						description="Alpha 2-1 Teamleader";
+						isPlayable=1;
+					};
+					id=930;
+					type="SOR_Teamleader2_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11606.427,6.9514904,13150.249};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""A2""]; ";
+						description="Alpha 2-2 Machine Gunner M240";
+						isPlayable=1;
+					};
+					id=931;
+					type="SOR_M240AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11605.793,6.9514904,13148.36};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""A2""]; ";
+						description="Alpha 2-3 Grenadier";
+						isPlayable=1;
+					};
+					id=932;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11605.134,6.9514904,13146.313};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""A2""]; ";
+						description="Alpha 2-4 Rifleman Ammo Bearer (M240)";
+						isPlayable=1;
+					};
+					id=933;
+					type="SOR_Rifleman_ammo_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=929;
+			atlOffset=5.1498413e-005;
+		};
+		class Item185
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11613.193,6.9514904,13163.389};
+						angles[]={0,0.33514643,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""B-A""]; nul = [this,""BA""] spawn SOR_fnc_markUnits; ";
+						description="BRAVO ACTUAL";
+						isPlayable=1;
+					};
+					id=935;
+					type="SOR_Actual_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11612.524,6.9514904,13161.544};
+						angles[]={0,0.33514643,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""B-A""]; ";
+						description="BRAVO Medic";
+						isPlayable=1;
+					};
+					id=936;
+					type="SOR_Medic_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=934;
+			atlOffset=5.1498413e-005;
+		};
+		class Item186
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11611.715,6.9514904,13159.123};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""B1""]; nul = [this,""B1""] spawn SOR_fnc_markUnits; ";
+						description="Bravo 1-1 Teamleader";
+						isPlayable=1;
+					};
+					id=938;
+					type="SOR_Teamleader_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11611.041,6.9514904,13157.216};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""B1""]; ";
+						description="Bravo 1-2 Autorifleman M249";
+						isPlayable=1;
+					};
+					id=939;
+					type="SOR_M249AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11610.421,6.9514904,13155.349};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""B1""]; ";
+						description="Bravo 1-3 Grenadier";
+						isPlayable=1;
+					};
+					id=940;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11609.818,6.9514904,13153.394};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""B1""]; ";
+						description="Bravo 1-4 Rifleman  AT Ammo Bearer (M249)";
+						isPlayable=1;
+					};
+					id=941;
+					type="SOR_Rifleman_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=937;
+			atlOffset=5.1498413e-005;
+		};
+		class Item187
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11609.003,6.9514904,13151.202};
+						angles[]={0,0.32586336,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""B2""]; nul = [this,""B2""] spawn SOR_fnc_markUnits; ";
+						description="Bravo 2-1 Teamleader";
+						isPlayable=1;
+					};
+					id=943;
+					type="SOR_Teamleader2_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11608.411,6.9514904,13149.33};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""B2""]; ";
+						description="Bravo 2-2 Machine Gunner M240";
+						isPlayable=1;
+					};
+					id=944;
+					type="SOR_M240AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11607.738,6.9514904,13147.436};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""B2""]; ";
+						description="Bravo 2-3 Grenadier";
+						isPlayable=1;
+					};
+					id=945;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11607.128,6.9514904,13145.521};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""B2""]; ";
+						description="Bravo 2-4 Rifleman Ammo Bearer (M240)";
+						isPlayable=1;
+					};
+					id=946;
+					type="SOR_Rifleman_ammo_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=942;
+			atlOffset=5.1498413e-005;
+		};
+		class Item188
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11615.126,6.9514904,13162.543};
+						angles[]={0,0.33514643,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""C-A""]; nul = [this,""CA""] spawn SOR_fnc_markUnits; ";
+						description="CHARLIE ACTUAL";
+						isPlayable=1;
+					};
+					id=948;
+					type="SOR_Actual_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11614.46,6.9514904,13160.682};
+						angles[]={0,0.33514643,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""C-A""]; ";
+						description="CHARLIE MEDIC";
+						isPlayable=1;
+					};
+					id=949;
+					type="SOR_Medic_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=947;
+			atlOffset=5.1498413e-005;
+		};
+		class Item189
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11613.735,6.9514904,13158.66};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""C1""]; nul = [this,""C1""] spawn SOR_fnc_markUnits; ";
+						description="Charlie 1-1 Teamleader";
+						isPlayable=1;
+					};
+					id=951;
+					type="SOR_Teamleader_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11613.087,6.9514904,13156.774};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""C1""]; ";
+						description="Charlie 1-2 Autorifleman M249";
+						isPlayable=1;
+					};
+					id=952;
+					type="SOR_M249AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11612.425,6.9514904,13154.839};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""C1""]; ";
+						description="Charlie 1-3 Grenadier";
+						isPlayable=1;
+					};
+					id=953;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11611.721,6.9514904,13152.987};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""C1""]; ";
+						description="Charlie 1-4 Rifleman  AT Ammo Bearer (M249)";
+						isPlayable=1;
+					};
+					id=954;
+					type="SOR_Rifleman_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=950;
+			atlOffset=5.1498413e-005;
+		};
+		class Item190
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11611.024,6.9514904,13150.745};
+						angles[]={0,0.32586336,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""C2""]; nul = [this,""C2""] spawn SOR_fnc_markUnits; ";
+						description="Charlie 2-1 Teamleader";
+						isPlayable=1;
+					};
+					id=956;
+					type="SOR_Teamleader2_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11610.396,6.9514904,13148.849};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""C2""]; ";
+						description="Charlie 2-2 Machine Gunner M240";
+						isPlayable=1;
+					};
+					id=957;
+					type="SOR_M240AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11609.768,6.9514904,13146.97};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""C2""]; ";
+						description="Charlie 2-3 Grenadier";
+						isPlayable=1;
+					};
+					id=958;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11609.091,6.9514904,13145.045};
+						angles[]={0,0.3258605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""C2""]; ";
+						description="Charlie 2-4 Rifleman Ammo Bearer (M240)";
+						isPlayable=1;
+					};
+					id=959;
+					type="SOR_Rifleman_ammo_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=955;
+			atlOffset=5.1498413e-005;
+		};
+		class Item191
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11617.158,6.9514904,13161.849};
+						angles[]={0,0.35680532,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""D-A""]; nul = [this,""DA""] spawn SOR_fnc_markUnits; ";
+						description="DELTA ACTUAL";
+						isPlayable=1;
+					};
+					id=961;
+					type="SOR_Actual_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11616.46,6.9514904,13159.981};
+						angles[]={0,0.35680532,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="this setGroupID [""D-A""]; ";
+						description="DELTA MEDIC";
+						isPlayable=1;
+					};
+					id=962;
+					type="SOR_Medic_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=960;
+			atlOffset=5.1498413e-005;
+		};
+		class Item192
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11615.803,6.9514904,13157.866};
+						angles[]={0,0.29837179,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""D1""]; nul = [this,""D1""] spawn SOR_fnc_markUnits; ";
+						description="Delta 1-1 Teamleader";
+						isPlayable=1;
+					};
+					id=964;
+					type="SOR_Teamleader_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11615.224,6.9514904,13155.958};
+						angles[]={0,0.29837179,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""D1""]; ";
+						description="Delta 1-2 Autorifleman M249";
+						isPlayable=1;
+					};
+					id=965;
+					type="SOR_M249AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11614.587,6.9514904,13154.013};
+						angles[]={0,0.29837179,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""D1""]; ";
+						description="Delta 1-3 Grenadier";
+						isPlayable=1;
+					};
+					id=966;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11614.045,6.9514904,13152.102};
+						angles[]={0,0.29837179,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""D1""]; ";
+						description="Delta 1-4 Rifleman  AT Ammo Bearer (M249)";
+						isPlayable=1;
+					};
+					id=967;
+					type="SOR_Rifleman_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=963;
+			atlOffset=5.1498413e-005;
+		};
+		class Item193
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11613.326,6.9514904,13149.9};
+						angles[]={0,0.32137823,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupID [""D2""]; nul = [this,""D2""] spawn SOR_fnc_markUnits; ";
+						description="Delta 2-1 Teamleader";
+						isPlayable=1;
+					};
+					id=969;
+					type="SOR_Teamleader2_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11612.69,6.9514904,13148.018};
+						angles[]={0,0.32137537,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""D2""]; ";
+						description="Delta 2-2 MachineGunner ";
+						isPlayable=1;
+					};
+					id=970;
+					type="SOR_M240AR_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11612.046,6.9514904,13146.107};
+						angles[]={0,0.32137537,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""D2""]; ";
+						description="Delta 2-3 Grenadier";
+						isPlayable=1;
+					};
+					id=971;
+					type="SOR_Grenadier_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11611.437,6.9514904,13144.232};
+						angles[]={0,0.32137537,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupID [""D2""]; ";
+						description="Delta 2-4 Rifleman Ammo Bearer (M240)";
+						isPlayable=1;
+					};
+					id=972;
+					type="SOR_Rifleman_ammo_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=968;
+			atlOffset=5.1498413e-005;
+		};
+		class Item194
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11620.639,6.9515171,13161.391};
+						angles[]={0,0.21750307,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""S1""]; nul = [this,""S1""] spawn SOR_fnc_markUnits; ";
+						description="Sabre 1-1 Commander";
+						isPlayable=1;
+					};
+					id=974;
+					type="SOR_MechCrewCommander_W";
+					atlOffset=7.8201294e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11620.009,6.9514389,13159.511};
+						angles[]={0,0.21900129,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""S1""]; ";
+						description="Sabre 1-2 Driver";
+						isPlayable=1;
+					};
+					id=975;
+					type="SOR_MechDriver_W";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11619.335,6.9514389,13157.535};
+						angles[]={0,0.23593473,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""S1""]; ";
+						description="Sabre 1-3 Gunner";
+						isPlayable=1;
+					};
+					id=976;
+					type="SOR_MechCrew_W";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11618.781,6.9514389,13155.74};
+						angles[]={0,0.23749304,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""S1""]; ";
+						description="Sabre 1-4 Loader";
+						isPlayable=1;
+					};
+					id=977;
+					type="SOR_MechOperator_W";
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=973;
+			atlOffset=7.8201294e-005;
+		};
+		class Item195
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11622.677,6.9515495,13160.681};
+						angles[]={0,0.30433035,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""S2""]; nul = [this,""S2""] spawn SOR_fnc_markUnits; ";
+						description="Sabre 2-1 Commander";
+						isPlayable=1;
+					};
+					id=979;
+					type="SOR_MechCrewCommander_W";
+					atlOffset=0.00011062622;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11622.146,6.9516315,13158.668};
+						angles[]={0,0.28249454,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""S2""]; ";
+						description="Sabre 2-2 Driver";
+						isPlayable=1;
+					};
+					id=980;
+					type="SOR_MechDriver_W";
+					atlOffset=0.00019264221;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11621.584,6.9516315,13156.85};
+						angles[]={0,0.3504262,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""S2""]; ";
+						description="Sabre 2-3 Gunner";
+						isPlayable=1;
+					};
+					id=981;
+					type="SOR_MechCrew_W";
+					atlOffset=0.00019264221;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11621.018,6.9516315,13154.904};
+						angles[]={0,0.29085064,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""S2""]; ";
+						description="Sabre 2-4 Loader";
+						isPlayable=1;
+					};
+					id=982;
+					type="SOR_MechOperator_W";
+					atlOffset=0.00019264221;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=978;
+			atlOffset=0.00011062622;
+		};
+		class Item196
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11624.703,6.9514389,13160.137};
+						angles[]={0,0.27829695,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""R1""]; nul = [this,""R1""] spawn SOR_fnc_markUnits; ";
+						description="Rhino 1-1 Commander";
+						isPlayable=1;
+					};
+					id=984;
+					type="SOR_MechCrewCommander_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11624.169,6.951622,13158.116};
+						angles[]={0,0.27668238,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""R1""]; ";
+						description="Rhino 1-2 Driver";
+						isPlayable=1;
+					};
+					id=985;
+					type="SOR_MechDriver_W";
+					atlOffset=0.00018310547;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11623.584,6.951622,13156.193};
+						angles[]={0,0.27794123,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""R1""]";
+						description="Rhino 1-3 Gunner";
+						isPlayable=1;
+					};
+					id=986;
+					type="SOR_MechCrew_W";
+					atlOffset=0.00018310547;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=983;
+		};
+		class Item197
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11626.536,6.9514828,13159.459};
+						angles[]={0,0.25509977,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""R2""]; nul = [this,""R2""] spawn SOR_fnc_markUnits; ";
+						description="Rhino 2-1 Commander";
+						isPlayable=1;
+					};
+					id=988;
+					type="SOR_MechCrewCommander_W";
+					atlOffset=4.3869019e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11626.02,6.9520626,13157.521};
+						angles[]={0,0.25038862,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""R2""]; ";
+						description="Rhino 2-2 Driver";
+						isPlayable=1;
+					};
+					id=989;
+					type="SOR_MechDriver_W";
+					atlOffset=0.000623703;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11625.402,6.9520626,13155.608};
+						angles[]={0,0.32103634,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""R2""]; ";
+						description="Rhino 2-3 Gunner";
+						isPlayable=1;
+					};
+					id=990;
+					type="SOR_MechCrew_W";
+					atlOffset=0.000623703;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=987;
+			atlOffset=4.3869019e-005;
+		};
+		class Item198
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11628.368,6.9515171,13158.86};
+						angles[]={0,0.26999998,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""R3""]; nul = [this,""R3""] spawn SOR_fnc_markUnits; ";
+						description="Rhino 3-1 Commander";
+						isPlayable=1;
+					};
+					id=992;
+					type="SOR_MechCrewCommander_W";
+					atlOffset=7.8201294e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11627.881,6.9515171,13156.914};
+						angles[]={0,0.24743414,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""R3""]; ";
+						description="Rhino 3-2 Driver";
+						isPlayable=1;
+					};
+					id=993;
+					type="SOR_MechDriver_W";
+					atlOffset=7.8201294e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11627.293,6.9515171,13154.992};
+						angles[]={0,0.27602577,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""R3""]; ";
+						description="Rhino 3-3 Gunner";
+						isPlayable=1;
+					};
+					id=994;
+					type="SOR_MechCrew_W";
+					atlOffset=7.8201294e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=991;
+			atlOffset=7.8201294e-005;
+		};
+		class Item199
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11623.101,6.9514389,13153.841};
+						angles[]={0,0.30023527,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""O1""]; nul = [this,""O1""] spawn SOR_fnc_markUnits; ";
+						description="Outlaw 1-1 Commander";
+						isPlayable=1;
+					};
+					id=996;
+					type="SOR_MechCrewCommander_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11622.444,6.9514904,13151.929};
+						angles[]={0,0.32760859,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""O1""]; ";
+						description="Outlaw 1-2 Driver";
+						isPlayable=1;
+					};
+					id=997;
+					type="SOR_MechDriver_W";
+					atlOffset=5.1498413e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=995;
+		};
+		class Item200
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11624.735,6.9514751,13153.335};
+						angles[]={0,0.26051474,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""O2""]; nul = [this,""O2""] spawn SOR_fnc_markUnits; ";
+						description="Outlaw 2-1 Commander";
+						isPlayable=1;
+					};
+					id=999;
+					type="SOR_MechCrewCommander_W";
+					atlOffset=3.6239624e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11624.154,6.9515057,13151.355};
+						angles[]={0,0.30684996,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""O2""]; ";
+						description="Outlaw 2-2 Driver";
+						isPlayable=1;
+					};
+					id=1000;
+					type="SOR_MechDriver_W";
+					atlOffset=6.6757202e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=998;
+			atlOffset=3.6239624e-005;
+		};
+		class Item201
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11626.632,6.9516315,13152.744};
+						angles[]={0,0.24822664,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""O3""]; nul = [this,""O3""] spawn SOR_fnc_markUnits; ";
+						description="Outlaw 3-1 Commander";
+						isPlayable=1;
+					};
+					id=1002;
+					type="SOR_MechCrewCommander_W";
+					atlOffset=0.00019264221;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11626.106,6.9516506,13150.719};
+						angles[]={0,0.29269743,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""O3""]; ";
+						description="Outlaw 3-2 Driver";
+						isPlayable=1;
+					};
+					id=1003;
+					type="SOR_MechDriver_W";
+					atlOffset=0.0002117157;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1001;
+			atlOffset=0.00019264221;
+		};
+		class Item202
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11632.003,6.9514904,13157.988};
+						angles[]={0,0.34520149,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""AG1""]; nul = [this,""AG1"",1] spawn SOR_fnc_markUnits; ";
+						description="Angel 1-1 Pilot";
+						isPlayable=1;
+					};
+					id=1005;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11631.322,6.9514637,13156.063};
+						angles[]={0,0.31681633,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG1""]; ";
+						description="Angel 1-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1006;
+					type="SOR_HeliPilot_W";
+					atlOffset=2.4795532e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11630.667,6.9514809,13154.09};
+						angles[]={0,0.27795458,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG1""]; ";
+						description="Angel 1-3 Crew Chief";
+						isPlayable=1;
+					};
+					id=1007;
+					type="SOR_HeliCrew_W";
+					atlOffset=4.196167e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11630.048,6.9514828,13152.369};
+						angles[]={0,0.28409815,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG1""]; ";
+						description="Angel 1-4 Door Gunner";
+						isPlayable=1;
+					};
+					id=1008;
+					type="SOR_HeliCrew_W";
+					atlOffset=4.3869019e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1004;
+			atlOffset=5.1498413e-005;
+		};
+		class Item203
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11634.267,6.9514904,13157.188};
+						angles[]={0,0.38740349,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""AG2""]; nul = [this,""AG2"",1] spawn SOR_fnc_markUnits; ";
+						description="Angel 2-1 Pilot";
+						isPlayable=1;
+					};
+					id=1010;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11633.525,6.9515114,13155.269};
+						angles[]={0,0.31012201,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG2""]; ";
+						description="Angel 2-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1011;
+					type="SOR_HeliPilot_W";
+					atlOffset=7.2479248e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11632.953,6.951498,13153.431};
+						angles[]={0,0.26669645,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						description="Angel 2-3 Crew Chief";
+						isPlayable=1;
+					};
+					id=1012;
+					type="SOR_HeliCrew_W";
+					atlOffset=5.9127808e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11632.308,6.9514828,13151.572};
+						angles[]={0,0.27947855,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						description="Angel 2-4 Door Gunner";
+						isPlayable=1;
+					};
+					id=1013;
+					type="SOR_HeliCrew_W";
+					atlOffset=4.3869019e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1009;
+			atlOffset=5.1498413e-005;
+		};
+		class Item204
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11636.495,6.9514904,13156.445};
+						angles[]={0,0.31429148,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""AG3""]; nul = [this,""AG3"",1] spawn SOR_fnc_markUnits; ";
+						description="Angel 3-1 Pilot";
+						isPlayable=1;
+					};
+					id=1015;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11635.691,6.9514656,13154.489};
+						angles[]={0,0.28527308,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG3""]; ";
+						description="Angel 3-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1016;
+					type="SOR_HeliPilot_W";
+					atlOffset=2.6702881e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11635.136,6.9514999,13152.756};
+						angles[]={0,0.29772329,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG2""]; ";
+						description="Angel 3-3 Crew Chief";
+						isPlayable=1;
+					};
+					id=1017;
+					type="SOR_HeliCrew_W";
+					atlOffset=6.1035156e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11634.522,6.9514694,13150.862};
+						angles[]={0,0.28500605,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG2""]; ";
+						description="Angel 3-4 Door Gunner";
+						isPlayable=1;
+					};
+					id=1018;
+					type="SOR_HeliCrew_W";
+					atlOffset=3.0517578e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1014;
+			atlOffset=5.1498413e-005;
+		};
+		class Item205
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11638.63,6.9514904,13155.683};
+						angles[]={0,0.27729082,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""AG4""]; nul = [this,""AG4"",1] spawn SOR_fnc_markUnits; ";
+						description="Angel 4-1 Pilot";
+						isPlayable=1;
+					};
+					id=1020;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11637.909,6.95154,13153.778};
+						angles[]={0,0.26931477,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG4""]; ";
+						description="Angel 4-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1021;
+					type="SOR_HeliPilot_W";
+					atlOffset=0.00010108948;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11637.23,6.9514694,13151.957};
+						angles[]={0,0.27865934,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG4""]; ";
+						description="Angel 4-3 Crew Chief";
+						isPlayable=1;
+					};
+					id=1022;
+					type="SOR_HeliCrew_W";
+					atlOffset=3.0517578e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11636.643,6.9514885,13150.143};
+						angles[]={0,0.28550434,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""AG4""]; ";
+						description="Angel 4-4 Door Gunner";
+						isPlayable=1;
+					};
+					id=1023;
+					type="SOR_HeliCrew_W";
+					atlOffset=4.9591064e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1019;
+			atlOffset=5.1498413e-005;
+		};
+		class Item206
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11635.88,6.9514904,13147.899};
+						angles[]={0,0.33877897,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""P1""]; nul = [this,""P1"",1] spawn SOR_fnc_markUnits; ";
+						description="Pegasus 1-1 Pilot";
+						isPlayable=1;
+					};
+					id=1025;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11635.182,6.9516487,13146.054};
+						angles[]={0,0.3230381,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""P1""]; ";
+						description="Pegasus 1-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1026;
+					type="SOR_HeliPilot_W";
+					atlOffset=0.00020980835;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1024;
+			atlOffset=5.1498413e-005;
+		};
+		class Item207
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11633.732,6.9514904,13148.776};
+						angles[]={0,0.34947777,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""P2""]; nul = [this,""P2"",1] spawn SOR_fnc_markUnits; ";
+						description="Pegasus 2-1 Pilot";
+						isPlayable=1;
+					};
+					id=1028;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11633.084,6.951828,13146.833};
+						angles[]={0,0.33195448,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""P2""]; ";
+						description="Pegasus 2-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1029;
+					type="SOR_HeliPilot_W";
+					atlOffset=0.00038909912;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1027;
+			atlOffset=5.1498413e-005;
+		};
+		class Item208
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11631.537,6.9514904,13149.49};
+						angles[]={0,0.32602024,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""P3""]; nul = [this,""P3"",1] spawn SOR_fnc_markUnits; ";
+						description="Pegasus 3-1 Pilot";
+						isPlayable=1;
+					};
+					id=1031;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11630.919,6.9516068,13147.59};
+						angles[]={0,0.34017611,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""P3""]; ";
+						description="Pegasus 3-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1032;
+					type="SOR_HeliPilot_W";
+					atlOffset=0.00016784668;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1030;
+			atlOffset=5.1498413e-005;
+		};
+		class Item209
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11629.599,6.9514904,13150.139};
+						angles[]={0,0.3086195,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""P4""]; nul = [this,""P4"",1] spawn SOR_fnc_markUnits; ";
+						description="Pegasus 4-1 Pilot";
+						isPlayable=1;
+					};
+					id=1034;
+					type="SOR_HeliPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11628.951,6.9515171,13148.271};
+						angles[]={0,0.35040998,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupID [""P4""]; ";
+						description="Pegasus 4-2 CoPilot";
+						isPlayable=1;
+					};
+					id=1035;
+					type="SOR_HeliPilot_W";
+					atlOffset=7.8201294e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1033;
+			atlOffset=5.1498413e-005;
+		};
+		class Item210
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11640.578,6.9514904,13154.912};
+						angles[]={0,0.22107363,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="CAPTAIN";
+						init="this setGroupID [""MEV""]; nul = [this,""MEV"",1] spawn SOR_fnc_markUnits; ";
+						description="MEV Pilot";
+						isPlayable=1;
+					};
+					id=1037;
+					type="SOR_MEVPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11639.929,6.9514904,13153.029};
+						angles[]={0,0.34195995,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						init="this setGroupID [""MEV""]; ";
+						description="MEV CoPilot";
+						isPlayable=1;
+					};
+					id=1038;
+					type="SOR_MEVPilot_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11639.251,6.9514732,13151.186};
+						angles[]={0,0.29124975,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						rank="SERGEANT";
+						init="nul = [this,""PJ1""] spawn SOR_fnc_markUnits; ";
+						description="MEV ParaJumper 1";
+						isPlayable=1;
+					};
+					id=1039;
+					type="SOR_ParaJumper_W";
+					atlOffset=3.4332275e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11638.56,6.9514904,13149.209};
+						angles[]={0,0.29599237,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						rank="SERGEANT";
+						init="nul = [this,""PJ2""] spawn SOR_fnc_markUnits; ";
+						description="MEV ParaJumper 2";
+						isPlayable=1;
+					};
+					id=1040;
+					type="SOR_ParaJumper_W";
+					atlOffset=5.1498413e-005;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11637.883,6.9514771,13147.333};
+						angles[]={0,0.2961154,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						rank="SERGEANT";
+						init="nul = [this,""PJ3""] spawn SOR_fnc_markUnits; ";
+						description="MEV ParaJumper 3";
+						isPlayable=1;
+					};
+					id=1041;
+					type="SOR_ParaJumper_W";
+					atlOffset=3.8146973e-005;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1036;
+			atlOffset=5.1498413e-005;
+		};
+		class Item211
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11811.969,6.9514389,13095.211};
+						angles[]={0,3.4340844,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""E1""]; nul = [this,""E1""] spawn SOR_fnc_markUnits";
+						description="Eagle 1 Pilot";
+						isPlayable=1;
+					};
+					id=1043;
+					type="SOR_JetPilot_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11812.501,6.9514389,13097.426};
+						angles[]={0,3.4340925,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						description="Eagle 1 CoPilot";
+						isPlayable=1;
+					};
+					id=1044;
+					type="SOR_JetPilot_W";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1042;
+		};
+		class Item212
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11814.058,6.9514389,13094.528};
+						angles[]={0,3.4340844,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""E2""]; nul = [this,""E2""] spawn SOR_fnc_markUnits";
+						description="Eagle 2 Pilot";
+						isPlayable=1;
+					};
+					id=1046;
+					type="SOR_JetPilot_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11814.594,6.9514389,13096.818};
+						angles[]={0,3.4340925,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						description="Eagle 2 CoPilot";
+						isPlayable=1;
+					};
+					id=1047;
+					type="SOR_JetPilot_W";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1045;
+		};
+		class Item213
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11816.057,6.9514389,13093.831};
+						angles[]={0,3.4340844,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""E3""]; nul = [this,""E3""] spawn SOR_fnc_markUnits";
+						description="Eagle 3 Pilot";
+						isPlayable=1;
+					};
+					id=1049;
+					type="SOR_JetPilot_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11816.69,6.9514389,13096.214};
+						angles[]={0,3.4340925,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						description="Eagle 3 CoPilot";
+						isPlayable=1;
+					};
+					id=1050;
+					type="SOR_JetPilot_W";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1048;
+		};
+		class Item214
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11817.859,6.9514389,13093.314};
+						angles[]={0,3.4340844,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						init="this setGroupID [""E4""]; nul = [this,""E4""] spawn SOR_fnc_markUnits";
+						description="Eagle 4 Pilot";
+						isPlayable=1;
+					};
+					id=1052;
+					type="SOR_JetPilot_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11818.511,6.9514389,13095.55};
+						angles[]={0,3.4340925,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.55000001;
+						rank="LIEUTENANT";
+						description="Eagle 4 CoPilot";
+						isPlayable=1;
+					};
+					id=1053;
+					type="SOR_JetPilot_W";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1051;
+		};
+		class Item215
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11609.25,6.9514389,13164.715};
+						angles[]={0,0.32900238,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setGroupId [""V1""]; nul = [this,""V""] spawn SOR_fnc_markUnits; ";
+						description="Viper 1-1 Actual";
+						isPlayable=1;
+					};
+					id=1055;
+					type="SOR_ReconLeader_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11608.534,6.9515953,13162.648};
+						angles[]={0,0.32900238,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.44999999;
+						rank="CORPORAL";
+						init="this setGroupId [""V1""]; ";
+						description="Viper 1-2 JTAC";
+						isPlayable=1;
+					};
+					id=1056;
+					type="SOR_ReconJTAC_W";
+					atlOffset=0.00015640259;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11607.095,6.9515953,13158.582};
+						angles[]={0,0.32900238,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupId [""V1""]; ";
+						description="Viper 1-3 Rifleman";
+						isPlayable=1;
+					};
+					id=1057;
+					type="SOR_ReconRifleman_W";
+					atlOffset=0.00015640259;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11607.791,6.9515953,13160.575};
+						angles[]={0,0.32900238,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.40000001;
+						init="this setGroupId [""V1""]; ";
+						description="Viper 1-4 Rifleman";
+						isPlayable=1;
+					};
+					id=1058;
+					type="SOR_ReconRifleman_W";
+					atlOffset=0.00015640259;
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1054;
+		};
+		class Item216
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11606.74,6.9514389,13165.516};
+						angles[]={0,0.36828947,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="this setGroupId [""BS1""]; nul = [this,""BS1""] spawn SOR_fnc_markUnits; ";
+						description="Blacksmith 1-1 Engineer Team Leader";
+						isPlayable=1;
+					};
+					id=1060;
+					type="SOR_Engineer_Teamleader_W";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11605.895,6.9514389,13163.432};
+						angles[]={0,0.36059523,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="this setGroupId [""BS1""]; nul = [this,""BS2""] spawn SOR_fnc_markUnits; ";
+						description="Blacksmith 1-2 Engineer";
+						isPlayable=1;
+					};
+					id=1063;
+					type="SOR_Engineer_Teamleader_W";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11605.128,6.9514389,13161.34};
+						angles[]={0,0.35327959,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setGroupId [""BS1""]; nul = [this,""BS3""] spawn SOR_fnc_markUnits; ";
+						description="Blacksmith 1-3 Engineer";
+						isPlayable=1;
+					};
+					id=1061;
+					type="SOR_Engineer_W";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11604.37,6.9514389,13159.228};
+						angles[]={0,0.36312342,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setGroupId [""BS1""]; nul = [this,""BS4""] spawn SOR_fnc_markUnits; ";
+						description="Blacksmith 1-4 Engineer";
+						isPlayable=1;
+					};
+					id=1062;
+					type="SOR_Engineer_W";
+				};
+			};
+			class Attributes
+			{
+				formation="FILE";
+			};
+			id=1059;
 		};
 	};
 	class Connections
