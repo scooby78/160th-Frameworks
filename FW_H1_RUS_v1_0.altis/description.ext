@@ -13,7 +13,7 @@ class Header
 disabledAI=1;
 debriefing=1;
 showGPS=1;
-disableChannels[]={0,1,2,5};
+disableChannels[]={0,1,2,3,4,5};
 
 respawn = 3;
 respawnDelay = 900;
@@ -32,7 +32,7 @@ wreckRemovalMaxTime = 420;
 
 enableDebugConsole = 1;	
 
-onLoadMission = www.160th.net (Requires Loadouts v2.2.3)                           FW Ver 2.0f;
+onLoadMission = www.160th.net (Requires Loadouts v2.2.3 - Opfor Loadouts v1.0.0)   FW Ver 2.0f;
 onLoadIntroTime=false;
 onLoadMissionTime=false;
 
@@ -43,8 +43,8 @@ allowFunctionsLog = 0;
 author = 160th OPERATIONS - ENTER YOUR NAME HERE;
 loadScreen =  "160thSOR\data\160th_night.paa"; 			//Options are... 160th_night.paa / 160th_day.paa / 160th.paa
 overviewPicture = "160thSOR\data\160th.paa"; 			//Options are... 160th_night.paa / 160th_day.paa / 160th.paa
-overviewText = "160th official framework";	
-onLoadName = 160th official framework;
+overviewText = "160th official framework (Russian VDV)";	
+onLoadName = 160th official framework (Russian VDV);
 
 //  Mission maker can edit these if required /\ /\ /\ /\ /\ /\ /\ /\ /\
 
