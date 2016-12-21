@@ -225,6 +225,8 @@ class Mission
 {
 	class Intel
 	{
+		resistanceWest=0;
+		resistanceEast=1;
 		timeOfChanges=1800.0002;
 		startWeather=0.15000001;
 		startWind=0.1;
