@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1189;
+		nextID=1211;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14665.967,35.548939,16765.871};
+		pos[]={14669.603,54.401894,16758.316};
 		dir[]={-0.34875825,-0.7421276,0.57238626};
 		up[]={-0.38615343,0.6702522,0.63375938};
 		aside[]={0.85397303,-1.0084477e-007,0.52033055};
@@ -32,6 +32,7 @@ addons[]=
 	"ace_repair",
 	"160th_SOR_Loadouts",
 	"SOR_OpFor_Loadouts",
+	"ace_advanced_fatigue",
 	"A3_Modules_F_Curator_Curator",
 	"ace_nametags",
 	"ace_interaction",
@@ -43,8 +44,7 @@ addons[]=
 	"ace_finger",
 	"acex_sitting",
 	"ace_common",
-	"ace_advanced_throwing",
-	"ace_advanced_fatigue"
+	"ace_advanced_throwing"
 };
 class AddonsMetaData
 {
@@ -102,92 +102,92 @@ class AddonsMetaData
 		};
 		class Item7
 		{
+			className="ace_advanced_fatigue";
+			name="ACE3 - Advanced Fatigue";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item8
+		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="ace_nametags";
 			name="ACE3 - Name Tags";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item9
+		class Item10
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item10
+		class Item11
 		{
 			className="ace_medical";
 			name="ACE3 - Medical";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item11
+		class Item12
 		{
 			className="ace_zeus";
 			name="ACE3 - Zeus";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item12
+		class Item13
 		{
 			className="ace_respawn";
 			name="ACE3 - Respawn";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item13
+		class Item14
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item14
+		class Item15
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item15
+		class Item16
 		{
 			className="ace_finger";
 			name="ACE3 - Finger";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item16
+		class Item17
 		{
 			className="acex_sitting";
 			name="ACEX - Sitting";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item17
+		class Item18
 		{
 			className="ace_common";
 			name="ACE3 - Common";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_advanced_throwing";
 			name="ACE3 - Advanced Throwing";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item19
-		{
-			className="ace_advanced_fatigue";
-			name="ACE3 - Advanced Fatigue";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
@@ -7210,12 +7210,122 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14653.607,17.913929,16782.221};
+				position[]={14661.472,17.91,16781.941};
+				angles[]={0.014664836,0,0.034652505};
+			};
+			id=1189;
+			type="ace_advanced_fatigue_moduleSettings";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_advanced_fatigue_moduleSettings_TerrainGradientFactor";
+					expression="_this setVariable ['TerrainGradientFactor',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.69999999;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_advanced_fatigue_moduleSettings_Enabled";
+					expression="_this setVariable ['Enabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_advanced_fatigue_moduleSettings_RecoveryFactor";
+					expression="_this setVariable ['RecoveryFactor',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_advanced_fatigue_moduleSettings_LoadFactor";
+					expression="_this setVariable ['LoadFactor',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.5;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_advanced_fatigue_moduleSettings_PerformanceFactor";
+					expression="_this setVariable ['PerformanceFactor',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1.5;
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item187
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14651.907,17.894602,16782.23};
 				angles[]={0,0.11588403,0};
 			};
-			id=1167;
+			id=1190;
 			type="ModuleCurator_F";
-			atlOffset=0.0039291382;
+			atlOffset=-0.015398026;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7316,17 +7426,17 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item187
+		class Item188
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14653.5,17.913483,16784.131};
+				position[]={14651.8,17.894154,16784.141};
 				angles[]={0,0.11588403,0};
 			};
-			id=1168;
+			id=1191;
 			type="ModuleCurator_F";
-			atlOffset=0.0034828186;
+			atlOffset=-0.015846252;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7427,17 +7537,17 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item188
+		class Item189
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14653.739,17.914,16780.324};
+				position[]={14652.039,17.872978,16780.332};
 				angles[]={0,0.11588986,0};
 			};
-			id=1169;
+			id=1192;
 			type="ModuleCurator_F";
-			atlOffset=0.0039997101;
+			atlOffset=-0.037021637;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7538,17 +7648,17 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item189
+		class Item190
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14653.866,17.914696,16778.764};
+				position[]={14652.166,17.865374,16778.773};
 				angles[]={0,0.11588403,0};
 			};
-			id=1170;
+			id=1193;
 			type="ModuleCurator_F";
-			atlOffset=0.0046958923;
+			atlOffset=-0.044626236;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7649,17 +7759,17 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item190
+		class Item191
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14655.563,17.910118,16779.973};
+				position[]={14653.862,17.871462,16779.98};
 				angles[]={0,0.11587974,0};
 			};
-			id=1171;
+			id=1194;
 			type="ModuleCuratorSetCoefs_F";
-			atlOffset=0.00011825562;
+			atlOffset=-0.038537979;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7817,17 +7927,17 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item191
+		class Item192
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14654.005,17.910044,16777.146};
+				position[]={14652.305,17.860723,16777.156};
 				angles[]={0,0.11588403,0};
 			};
-			id=1172;
+			id=1195;
 			type="ModuleCurator_F";
-			atlOffset=4.3869019e-005;
+			atlOffset=-0.049276352;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7928,16 +8038,17 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item192
+		class Item193
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14659.589,17.91,16778.799};
+				position[]={14657.889,17.872402,16778.809};
 				angles[]={0,3.0307355,0};
 			};
-			id=1173;
+			id=1196;
 			type="ACE_ModuleNameTags";
+			atlOffset=-0.037597656;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8038,17 +8149,17 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item193
+		class Item194
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14659.531,17.913631,16777.252};
+				position[]={14657.831,17.875727,16777.262};
 				angles[]={0,3.0307355,0};
 			};
-			id=1174;
+			id=1197;
 			type="ACE_ModuleInteraction";
-			atlOffset=0.0036315918;
+			atlOffset=-0.034273148;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8073,16 +8184,17 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item194
+		class Item195
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14661.552,17.91,16780.291};
+				position[]={14659.852,17.920662,16780.301};
 				angles[]={0,2.9601502,0};
 			};
-			id=1175;
+			id=1198;
 			type="ACE_moduleReviveSettings";
+			atlOffset=0.010662079;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8145,16 +8257,17 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item195
+		class Item196
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14659.586,17.91,16780.143};
+				position[]={14657.886,17.872387,16780.152};
 				angles[]={0,3.0307333,0};
 			};
-			id=1176;
+			id=1199;
 			type="ace_zeus_moduleSettings";
+			atlOffset=-0.037612915;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8274,16 +8387,17 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item196
+		class Item197
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14661.585,17.91,16777.453};
+				position[]={14659.885,17.873997,16777.461};
 				angles[]={0,2.9601502,0};
 			};
-			id=1177;
+			id=1200;
 			type="ACE_ModuleRespawn";
+			atlOffset=-0.036003113;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8327,16 +8441,17 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item197
+		class Item198
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14659.659,17.91,16781.402};
+				position[]={14657.959,17.885672,16781.41};
 				angles[]={0,3.0307355,0};
 			};
-			id=1178;
+			id=1201;
 			type="ACE_ModuleHearing";
+			atlOffset=-0.024328232;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8418,16 +8533,17 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item198
+		class Item199
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14661.354,17.91,16782.648};
+				position[]={14659.654,17.919996,16782.656};
 				angles[]={0,2.9601483,0};
 			};
-			id=1179;
+			id=1202;
 			type="ACE_moduleRepairSettings";
+			atlOffset=0.0099964142;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8604,16 +8720,17 @@ class Mission
 				nAttributes=9;
 			};
 		};
-		class Item199
+		class Item200
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14659.686,17.91,16782.629};
+				position[]={14657.986,17.910715,16782.637};
 				angles[]={0,3.0307355,0};
 			};
-			id=1180;
+			id=1203;
 			type="ACE_moduleCargoSettings";
+			atlOffset=0.00071525574;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8638,16 +8755,17 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item200
+		class Item201
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14661.571,17.91,16778.949};
+				position[]={14659.871,17.874001,16778.957};
 				angles[]={0,2.9601483,0};
 			};
-			id=1181;
+			id=1204;
 			type="ACE_moduleMedicalSettings";
+			atlOffset=-0.035999298;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8722,7 +8840,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0.40000001;
+							value=0.1;
 						};
 					};
 				};
@@ -8798,7 +8916,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0.30000001;
+							value=0.1;
 						};
 					};
 				};
@@ -8919,16 +9037,17 @@ class Mission
 				nAttributes=14;
 			};
 		};
-		class Item201
+		class Item202
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14659.716,17.91,16783.693};
+				position[]={14658.016,17.912113,16783.703};
 				angles[]={0,3.0307355,0};
 			};
-			id=1182;
+			id=1205;
 			type="ace_finger_moduleSettings";
+			atlOffset=0.0021133423;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8972,16 +9091,17 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item202
+		class Item203
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14661.384,17.91,16783.766};
+				position[]={14659.684,17.919996,16783.773};
 				angles[]={0,5.8697066,0};
 			};
-			id=1183;
+			id=1206;
 			type="ACEX_ModuleSitting";
+			atlOffset=0.0099964142;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9006,16 +9126,17 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item203
+		class Item204
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14661.45,17.91,16781.551};
+				position[]={14659.75,17.920456,16781.559};
 				angles[]={0,2.6059151,0};
 			};
-			id=1184;
+			id=1207;
 			type="ACE_ModuleCheckPBOs";
+			atlOffset=0.010456085;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9078,17 +9199,17 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item204
+		class Item205
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14654.489,17.910172,16775.041};
+				position[]={14652.789,17.860722,16775.051};
 				angles[]={0,3.1808958,0};
 			};
-			id=1185;
+			id=1208;
 			type="ModuleCurator_F";
-			atlOffset=0.00017166138;
+			atlOffset=-0.049278259;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9189,17 +9310,17 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item205
+		class Item206
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14654.276,17.909958,16776.172};
+				position[]={14652.576,17.860638,16776.18};
 				angles[]={0,3.1808958,0};
 			};
-			id=1186;
+			id=1209;
 			type="ModuleCurator_F";
-			atlOffset=-4.196167e-005;
+			atlOffset=-0.049362183;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9300,15 +9421,16 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item206
+		class Item207
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14662.968,17.91,16783.959};
+				position[]={14661.268,17.919996,16783.969};
 			};
-			id=1187;
+			id=1210;
 			type="ace_advanced_throwing_Module";
+			atlOffset=0.0099964142;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9400,115 +9522,6 @@ class Mission
 								type[]=
 								{
 									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item207
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={14662.99,17.91,16782.369};
-			};
-			id=1188;
-			type="ace_advanced_fatigue_moduleSettings";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_advanced_fatigue_moduleSettings_TerrainGradientFactor";
-					expression="_this setVariable ['TerrainGradientFactor',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_advanced_fatigue_moduleSettings_Enabled";
-					expression="_this setVariable ['Enabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_advanced_fatigue_moduleSettings_RecoveryFactor";
-					expression="_this setVariable ['RecoveryFactor',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ace_advanced_fatigue_moduleSettings_LoadFactor";
-					expression="_this setVariable ['LoadFactor',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.5;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ace_advanced_fatigue_moduleSettings_PerformanceFactor";
-					expression="_this setVariable ['PerformanceFactor',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
 								};
 							};
 							value=1;
@@ -9651,8 +9664,8 @@ class Mission
 			class Item12
 			{
 				linkID=12;
-				item0=1171;
-				item1=1167;
+				item0=1194;
+				item1=1190;
 				class CustomData
 				{
 					type="Sync";
@@ -9661,8 +9674,8 @@ class Mission
 			class Item13
 			{
 				linkID=13;
-				item0=1171;
-				item1=1168;
+				item0=1194;
+				item1=1191;
 				class CustomData
 				{
 					type="Sync";
@@ -9671,8 +9684,8 @@ class Mission
 			class Item14
 			{
 				linkID=14;
-				item0=1171;
-				item1=1169;
+				item0=1194;
+				item1=1192;
 				class CustomData
 				{
 					type="Sync";
@@ -9681,8 +9694,8 @@ class Mission
 			class Item15
 			{
 				linkID=15;
-				item0=1171;
-				item1=1170;
+				item0=1194;
+				item1=1193;
 				class CustomData
 				{
 					type="Sync";
@@ -9691,8 +9704,8 @@ class Mission
 			class Item16
 			{
 				linkID=16;
-				item0=1172;
-				item1=1171;
+				item0=1195;
+				item1=1194;
 				class CustomData
 				{
 					type="Sync";
@@ -9701,8 +9714,8 @@ class Mission
 			class Item17
 			{
 				linkID=17;
-				item0=1185;
-				item1=1171;
+				item0=1208;
+				item1=1194;
 				class CustomData
 				{
 					type="Sync";
@@ -9711,8 +9724,8 @@ class Mission
 			class Item18
 			{
 				linkID=18;
-				item0=1186;
-				item1=1171;
+				item0=1209;
+				item1=1194;
 				class CustomData
 				{
 					type="Sync";
