@@ -32,7 +32,7 @@ wreckRemovalMaxTime = 420;
 
 enableDebugConsole = 1;	
 
-onLoadMission = www.160th.net (Requires Loadouts v2.3.0)                           FW Ver 2.0f;
+onLoadMission = www.160th.net (Requires Loadouts v2.3.0)                           FW Ver 2.0h;
 onLoadIntroTime=false;
 onLoadMissionTime=false;
 
