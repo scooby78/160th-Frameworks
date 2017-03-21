@@ -1,14 +1,14 @@
-version=52;
+version=53;
 class EditorData
 {
 	moveGridStep=1;
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=649;
+	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=1333;
+		nextID=1341;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14758.824,84.043266,16640.539};
-		dir[]={-0.52002907,-0.68386227,0.51198047};
-		up[]={-0.48761076,0.72921497,0.48006546};
-		aside[]={0.70164746,-9.3504786e-007,0.71268153};
+		pos[]={14589.838,147.39575,16842.887};
+		dir[]={-0.28866497,-0.91333789,0.28725192};
+		up[]={-0.64741737,0.40717942,0.644247};
+		aside[]={0.70537585,6.0623279e-008,0.70884854};
 	};
 };
 binarizationWanted=0;
@@ -58,7 +58,7 @@ class AddonsMetaData
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item1
 		{
@@ -72,7 +72,7 @@ class AddonsMetaData
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item3
 		{
@@ -100,14 +100,14 @@ class AddonsMetaData
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item7
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item8
 		{
@@ -121,7 +121,7 @@ class AddonsMetaData
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
-			url="http://www.arma3.com";
+			url="https://www.arma3.com";
 		};
 		class Item10
 		{
@@ -717,7 +717,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=197;
+		items=205;
 		class Item0
 		{
 			dataType="Marker";
@@ -8829,6 +8829,142 @@ class Mission
 			id=1331;
 			type="SOR_UH60M_MEV";
 			atlOffset=-8.392334e-005;
+		};
+		class Item197
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14555.328,17.832012,16884.563};
+				angles[]={0.0026520467,0.78960568,0.0066682254};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1333;
+			type="SOR_TROOP_CAR_M2";
+			atlOffset=-8.7738037e-005;
+		};
+		class Item198
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14558.206,17.854742,16881.613};
+				angles[]={0,0.78960568,0.0026520467};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1334;
+			type="SOR_TROOP_CAR_M2";
+			atlOffset=-9.5367432e-005;
+		};
+		class Item199
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14560.667,17.861197,16879.123};
+				angles[]={0,0.78960568,0.0026520467};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1335;
+			type="SOR_TROOP_CAR_M2";
+			atlOffset=-0.0002040863;
+		};
+		class Item200
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14563.137,17.867918,16876.734};
+				angles[]={0,0.78960568,0.0026520467};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1336;
+			type="SOR_TROOP_CAR_M2";
+			atlOffset=-6.8664551e-005;
+		};
+		class Item201
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14568.728,19.704735,16872.045};
+				angles[]={0,0.76845688,0.0012918708};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1337;
+			type="SOR_TROOP_CAR";
+			atlOffset=-7.6293945e-005;
+		};
+		class Item202
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14570.988,19.708084,16869.734};
+				angles[]={0,0.76845688,0.0012918708};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1338;
+			type="SOR_TROOP_CAR";
+			atlOffset=0.00025939941;
+		};
+		class Item203
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14573.313,19.713179,16867.328};
+				angles[]={0,0.76845688,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1339;
+			type="SOR_TROOP_CAR";
+			atlOffset=0.00010871887;
+		};
+		class Item204
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14566.159,19.701639,16874.518};
+				angles[]={0,0.76845688,0.0012918708};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1340;
+			type="SOR_TROOP_CAR";
+			atlOffset=0.00025177002;
 		};
 	};
 	class Connections
