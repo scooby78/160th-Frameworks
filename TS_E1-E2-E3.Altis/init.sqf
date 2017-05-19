@@ -1,4 +1,3 @@
-
 if !(isServer) exitwith {};
 
 while {true} do 
