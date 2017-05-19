@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11897.988,16.506723,13144.433};
-		dir[]={-0.25520396,-0.61250901,-0.74824518};
-		up[]={-0.19776918,0.79035497,-0.57983822};
-		aside[]={-0.94653875,-3.8019789e-007,0.32283929};
+		pos[]={11809.392,62.010452,13155.015};
+		dir[]={-0.32063738,-0.54471588,-0.77501595};
+		up[]={-0.20829968,0.83851892,-0.50347435};
+		aside[]={-0.92411876,-7.0972601e-007,0.38232684};
 	};
 };
 binarizationWanted=0;
@@ -390,7 +390,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11760.455,9.3353338,13156.979};
-				angles[]={-0,0.23397884,0};
+				angles[]={0,0.23397884,0};
 			};
 			side="Empty";
 			flags=4;
@@ -409,7 +409,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11989.724,9.1901751,13089.45};
-				angles[]={-0,0.32217816,0};
+				angles[]={0,0.32217816,0};
 			};
 			side="Empty";
 			flags=4;
@@ -426,7 +426,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11965.507,9.1916962,13096.992};
-				angles[]={-0,0.27761319,0};
+				angles[]={0,0.27761319,0};
 			};
 			side="Empty";
 			flags=4;
@@ -436,7 +436,7 @@ class Mission
 			};
 			id=65;
 			type="SOR_MELB_MH6M";
-			atlOffset=0.0015206337;
+			atlOffset=0.0015211105;
 		};
 		class Item10
 		{
@@ -482,7 +482,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11784.263,9.3093338,13150.502};
-				angles[]={-0,0.25553602,0};
+				angles[]={0,0.25553602,0};
 			};
 			side="Empty";
 			flags=4;
@@ -534,8 +534,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11778.116,7.7736535,13081.102};
-				angles[]={0,0.29501143,0};
+				position[]={11778.116,9.4450512,13081.102};
+				angles[]={-0,0.29501143,0};
 			};
 			side="Empty";
 			flags=4;
@@ -545,15 +545,14 @@ class Mission
 			};
 			id=96;
 			type="SOR_A10";
-			atlOffset=0.010906219;
 		};
 		class Item16
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11799.961,7.7736535,13075.004};
-				angles[]={0,0.23893242,0};
+				position[]={11799.961,9.4450512,13075.004};
+				angles[]={-0,0.23893242,0};
 			};
 			side="Empty";
 			flags=4;
@@ -563,7 +562,6 @@ class Mission
 			};
 			id=97;
 			type="SOR_A10";
-			atlOffset=0.010906219;
 		};
 		class Item17
 		{
@@ -1341,7 +1339,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11760.99,7.25,13158.633};
-				angles[]={-0,0.28877562,0};
+				angles[]={0,0.28877562,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1357,7 +1355,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11784.399,7.25,13151.093};
-				angles[]={-0,0.26897445,0};
+				angles[]={0,0.26897445,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1373,7 +1371,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11808.896,7.25,13144.179};
-				angles[]={-0,0.29914349,0};
+				angles[]={0,0.29914349,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1454,7 +1452,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11989.993,7.25,13089.747};
-				angles[]={-0,0.26966813,0};
+				angles[]={0,0.26966813,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1470,7 +1468,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11965.704,7.250217,13097.885};
-				angles[]={-0,0.26897445,0};
+				angles[]={0,0.26897445,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1487,7 +1485,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11808.677,9.3093338,13143.065};
-				angles[]={-0,0.27773425,0};
+				angles[]={0,0.27773425,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1579,8 +1577,8 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							property="Enh_onKilledEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -1598,8 +1596,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
 							{
 								class data
@@ -1636,158 +1634,6 @@ class Mission
 						};
 						class Attribute3
 						{
-							property="Enh_taskPatrol_combatMode";
-							expression="_this setVariable ['Enh_randomPatrol_combatMode',_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="YELLOW";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="Enh_taskPatrol_formation";
-							expression="_this setVariable ['Enh_randomPatrol_formation',_value]";
-							class Value
-							{
-								class data
-								{
-									nil=1;
-									class type
-									{
-										type[]=
-										{
-											"ANY"
-										};
-									};
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="Enh_taskPatrol_behaviour";
-							expression="_this setVariable ['Enh_randomPatrol_behaviour',_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="SAFE";
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="Enh_taskPatrol_speed";
-							expression="_this setVariable ['Enh_randomPatrol_speedMode',_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="LIMITED";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="Enh_animCombEquipment";
-							expression="_this setVariable ['Enh_animCombEquipment',_value]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="ASIS";
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="Enh_animType";
-							expression="				if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};				if !(_value isEqualTo '' && isServer) then				{					[_this,_value] spawn					{						waitUntil {time > 0.2};						[_this select 0,_this select 1,(_this select 0) getVariable 'Enh_animEquipment'] remoteExec ['BIS_fnc_ambientAnim',0,true];					};				};			";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="false";
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="ace_isHandcuffed";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute11
-						{
 							property="pitch";
 							expression="_this setpitch _value;";
 							class Value
@@ -1805,10 +1651,10 @@ class Mission
 								};
 							};
 						};
-						class Attribute12
+						class Attribute4
 						{
-							property="Enh_animCombType";
-							expression="				if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};				if !(_value isEqualTo '' && isServer) then				{					[_this,_value] spawn					{						waitUntil {time > 0.2};						[_this select 0,_this select 1,(_this select 0) getVariable 'Enh_animCombEquipment'] remoteExec ['BIS_fnc_ambientAnimCombat',0,true];					};				};			";
+							property="Enh_onDamagedEvent";
+							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -1820,14 +1666,14 @@ class Mission
 											"STRING"
 										};
 									};
-									value="";
+									value="false";
 								};
 							};
 						};
-						class Attribute13
+						class Attribute5
 						{
-							property="Enh_animEquipment";
-							expression="_this setVariable ['Enh_animEquipment',_value];";
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
 							class Value
 							{
 								class data
@@ -1836,14 +1682,14 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="ASIS";
+									value=0;
 								};
 							};
 						};
-						nAttributes=14;
+						nAttributes=6;
 					};
 				};
 			};
@@ -2373,8 +2219,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11848.209,9.0881538,13061.709};
-				angles[]={0,0.27615219,0};
+				position[]={11848.209,9.4450512,13061.709};
+				angles[]={-0,0.27615219,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2389,8 +2235,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11828.285,9.0817022,13068.228};
-				angles[]={0,0.27355662,0};
+				position[]={11828.285,9.4450512,13068.228};
+				angles[]={-0,0.27355662,0};
 			};
 			side="Empty";
 			flags=4;
@@ -8702,7 +8548,7 @@ class Mission
 			};
 			id=1213;
 			type="SOR_MELB_AH6M_H";
-			atlOffset=-0.011000156;
+			atlOffset=-0.011000633;
 			class CustomAttributes
 			{
 				class Attribute0
