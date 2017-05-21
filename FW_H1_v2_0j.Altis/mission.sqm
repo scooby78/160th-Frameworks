@@ -743,6 +743,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.5591383;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=63;
 			type="SOR_M2A3_BUSKIII";
@@ -760,6 +763,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.5591383;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=64;
 			type="SOR_M2A3_BUSKIII";
@@ -777,6 +783,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=65;
 			type="SOR_M2A3_BUSKIII";
@@ -794,6 +803,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=71;
 			type="SOR_M2A3_BUSKIII";
@@ -811,6 +823,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=74;
 			type="SOR_CH_47F";
@@ -829,6 +844,9 @@ class Mission
 			{
 				skill=0.60000002;
 				textures="standard";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=75;
 			type="SOR_CH_47F";
@@ -846,6 +864,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=76;
 			type="SOR_AH64D_CS";
@@ -863,6 +884,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=77;
 			type="SOR_AH64D_AA";
@@ -880,6 +904,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=78;
 			type="SOR_MELB_MH6M";
@@ -898,6 +925,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=79;
 			type="SOR_MELB_MH6M";
@@ -936,6 +966,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=81;
 			type="SOR_UH60M";
@@ -954,6 +987,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=83;
 			type="SOR_AH64D_GS";
@@ -1192,6 +1228,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=102;
 			type="SOR_MELB_AH6M_L";
@@ -1342,6 +1381,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=110;
 			type="SOR_UH60M";
@@ -1360,6 +1402,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=111;
 			type="SOR_UH60M";
@@ -1378,6 +1423,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=114;
 			type="SOR_MELB_AH6M_L";
@@ -1774,6 +1822,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=371;
 			type="SOR_B_APC_Tracked_02";
@@ -1857,6 +1908,9 @@ class Mission
 			class Attributes
 			{
 				init="nul = [this,""FUEL2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=583;
 			type="SOR_Eng_Truck_fuel_D";
@@ -1874,6 +1928,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=650;
 			type="SOR_Eng_Truck_Transport_D";
@@ -1890,6 +1947,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=683;
 			type="SOR_Eng_Car_Transport_D";
@@ -2279,6 +2339,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=809;
 			type="SOR_A10";
@@ -2297,6 +2360,9 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=810;
 			type="SOR_A10";
@@ -2332,6 +2398,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=901;
 			type="SOR_FIGHTER";
@@ -2349,6 +2418,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=904;
 			type="SOR_STRIKE_FIGHTER";
@@ -7734,6 +7806,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1298;
 			type="SOR_LAV";
@@ -7751,6 +7826,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1299;
 			type="SOR_LAV";
@@ -7767,6 +7845,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1300;
 			type="SOR_LAV_HQ";
@@ -7783,6 +7864,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1305;
 			type="SOR_M113_SUPPLY";
@@ -7800,6 +7884,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1308;
 			type="SOR_M113";
@@ -7816,6 +7903,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1309;
 			type="SOR_M113";
@@ -7832,6 +7922,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1310;
 			type="SOR_M113";
@@ -7849,6 +7942,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1311;
 			type="SOR_M113";
@@ -7865,6 +7961,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1312;
 			type="SOR_M113_MEDICAL";
@@ -7881,6 +7980,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1314;
 			type="SOR_M6A2";
@@ -7897,6 +7999,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1315;
 			type="SOR_M6A2";
@@ -7913,6 +8018,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1320;
 			type="SOR_M1A2";
@@ -7930,6 +8038,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1321;
 			type="SOR_M1A2";
@@ -7947,6 +8058,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1322;
 			type="SOR_M1A2_TUSKI";
@@ -7964,6 +8078,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1323;
 			type="SOR_M1A2_TUSKI";
@@ -7981,6 +8098,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1324;
 			type="SOR_M1A2_TUSKII";
@@ -7998,6 +8118,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1325;
 			type="SOR_M1A2_TUSKII";
@@ -8016,70 +8139,12 @@ class Mission
 			class Attributes
 			{
 				init="nul = [this,""FUEL3""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1327;
 			type="SOR_Eng_Truck_fuel_D";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_onKilledEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Enh_onRespawnEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Enh_onDamagedEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				nAttributes=3;
-			};
 		};
 		class Item172
 		{
@@ -8094,70 +8159,12 @@ class Mission
 			class Attributes
 			{
 				init="nul = [this,""AMMO3""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1329;
 			type="SOR_Eng_Truck_ammo2_D";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_onKilledEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Enh_onRespawnEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Enh_onDamagedEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				nAttributes=3;
-			};
 		};
 		class Item173
 		{
@@ -8172,71 +8179,13 @@ class Mission
 			class Attributes
 			{
 				init="nul = [this,""REPAIR3""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1330;
 			type="SOR_Eng_Truck_AutoRepair_D";
 			atlOffset=1.9073486e-006;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_onKilledEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Enh_onRespawnEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Enh_onDamagedEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				nAttributes=3;
-			};
 		};
 		class Item174
 		{
@@ -8267,6 +8216,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1333;
 			type="SOR_TROOP_CAR_M2";
@@ -8283,6 +8235,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1334;
 			type="SOR_TROOP_CAR_M2";
@@ -8299,6 +8254,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1335;
 			type="SOR_TROOP_CAR_M2";
@@ -8315,6 +8273,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1336;
 			type="SOR_TROOP_CAR_M2";
@@ -8331,6 +8292,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1337;
 			type="SOR_TROOP_CAR";
@@ -8348,6 +8312,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1338;
 			type="SOR_TROOP_CAR";
@@ -8365,6 +8332,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1339;
 			type="SOR_TROOP_CAR";
@@ -8382,6 +8352,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1340;
 			type="SOR_TROOP_CAR";
@@ -8400,70 +8373,12 @@ class Mission
 			class Attributes
 			{
 				init="nul = [this,""REPAIR2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1342;
 			type="SOR_Eng_Truck_AutoRepair_D";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_onKilledEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Enh_onRespawnEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Enh_onDamagedEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				nAttributes=3;
-			};
 		};
 		class Item184
 		{
@@ -8478,70 +8393,12 @@ class Mission
 			class Attributes
 			{
 				init="nul = [this,""AMMO2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1343;
 			type="SOR_Eng_Truck_ammo2_D";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_onKilledEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Enh_onRespawnEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Enh_onDamagedEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				nAttributes=3;
-			};
 		};
 		class Item185
 		{
@@ -8578,90 +8435,13 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1350;
 			type="SOR_MELB_AH6M_H";
 			atlOffset=0.00099945068;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_onKilledEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Enh_onRespawnEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="rhs_MELB_TailNumber";
-					expression="if(_value != 'NoChange')then{ [_this,'d_SN',_value] call RHS_MELB_fnc_tailNumber}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="Enh_onDamagedEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				nAttributes=4;
-			};
 		};
 		class Item188
 		{
@@ -8676,90 +8456,13 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
 			id=1351;
 			type="SOR_MELB_AH6M_H";
 			atlOffset=0.00099945068;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_onKilledEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Enh_onRespawnEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="rhs_MELB_TailNumber";
-					expression="if(_value != 'NoChange')then{ [_this,'d_SN',_value] call RHS_MELB_fnc_tailNumber}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="Enh_onDamagedEvent";
-					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				nAttributes=4;
-			};
 		};
 	};
 	class Connections
