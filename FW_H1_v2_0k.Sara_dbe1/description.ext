@@ -32,7 +32,7 @@ wreckRemovalMaxTime = 420;
 
 enableDebugConsole = 1;	
 
-onLoadMission = www.160th.net (Requires Loadouts v2.4.4)                           FW Ver 2.0j;
+onLoadMission = www.160th.net (Requires Loadouts v2.4.4)                           FW Ver 2.0k;
 onLoadIntroTime=false;
 onLoadMissionTime=false;
 
@@ -40,11 +40,11 @@ allowFunctionsLog = 0;
 
 //  Mission maker can edit these if required \/ \/ \/ \/ \/ \/ \/ \/ \/
 
-author = 160th OPERATIONS - ENTER YOUR NAME HERE;
+author = 16th Operations - Your Name Here;
 loadScreen =  "160thSOR\data\160th_night.paa"; 			//Options are... 160th_night.paa / 160th_day.paa / 160th.paa
 overviewPicture = "160thSOR\data\160th.paa"; 			//Options are... 160th_night.paa / 160th_day.paa / 160th.paa
-overviewText = "160th official framework";	
-onLoadName = 160th official framework;
+overviewText = "16th Operations";	
+onLoadName = 'Malden Framework';
 
 //  Mission maker can edit these if required /\ /\ /\ /\ /\ /\ /\ /\ /\
 
