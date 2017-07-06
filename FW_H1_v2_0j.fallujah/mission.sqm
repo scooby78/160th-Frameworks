@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=641;
 	class ItemIDProvider
 	{
 		nextID=522;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7929.0142,32.666088,2124.8621};
-		dir[]={-0.48065123,-0.60822511,-0.63175392};
-		up[]={-0.36833182,0.79369909,-0.48412538};
-		aside[]={-0.79587853,-1.0934891e-006,0.60551935};
+		pos[]={7861.9893,157.49841,2192.6892};
+		dir[]={0.20487434,-0.60655862,-0.76823944};
+		up[]={0.15631886,0.79497135,-0.58616376};
+		aside[]={-0.96626878,-1.0612421e-006,-0.25768545};
 	};
 };
 binarizationWanted=0;
@@ -1893,7 +1893,7 @@ class Mission
 		class Item72
 		{
 			dataType="Marker";
-			position[]={8113.5376,7,2236.6399};
+			position[]={7912.2744,7,2078.9456};
 			name="respawn_west";
 			type="Empty";
 			angle=62.879898;
