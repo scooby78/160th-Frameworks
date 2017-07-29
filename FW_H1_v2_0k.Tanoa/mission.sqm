@@ -8,14 +8,14 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1424;
+		nextID=1463;
 	};
 	class Camera
 	{
-		pos[]={11831.635,253.34581,13453.019};
-		dir[]={-0.25916708,-0.54773462,-0.79563135};
-		up[]={-0.16970202,0.83652365,-0.52096003};
-		aside[]={-0.95092732,4.7881622e-007,0.30975875};
+		pos[]={11739.89,157.84494,13277.484};
+		dir[]={-0.27739844,-0.601264,-0.7494961};
+		up[]={-0.20875832,0.79891479,-0.56402487};
+		aside[]={-0.93792748,1.1319207e-006,0.34714323};
 	};
 };
 binarizationWanted=0;
@@ -275,7 +275,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=205;
+		items=208;
 		class Item0
 		{
 			dataType="Marker";
@@ -23899,7 +23899,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11718.563,9.0909348,13107.466};
-				angles[]={-0,4.9819026,0};
+				angles[]={0,4.9819026,0};
 			};
 			side="Empty";
 			flags=4;
@@ -23998,7 +23998,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11717.008,9.0909348,13102.854};
-				angles[]={-0,4.9819026,0};
+				angles[]={0,4.9819026,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24097,7 +24097,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11715.844,9.0909348,13097.925};
-				angles[]={-0,4.9819026,0};
+				angles[]={0,4.9819026,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24192,19 +24192,195 @@ class Mission
 		};
 		class Item204
 		{
+			dataType="Marker";
+			position[]={11466.055,6.9499998,13282.641};
+			name="medivac1_1";
+			text="MEV HQ";
+			type="loc_Hospital";
+			colorName="ColorWEST";
+			id=1424;
+		};
+		class Item205
+		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11732.867,6.9499998,13164.754};
-				angles[]={-0,3.4203522,0};
+				position[]={11746.715,8.757987,13091.77};
+				angles[]={-0,0.90502226,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="nul = [this,""FUEL2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
 			};
-			id=1423;
-			type="SOR_Land_HelipadCircle_F";
+			id=1446;
+			type="SOR_Eng_Truck_fuel_D";
+		};
+		class Item206
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11749.723,8.7639084,13087.799};
+				angles[]={-0,0.91793597,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="nul = [this,""AMMO2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=1455;
+			type="SOR_Eng_Truck_ammo_D";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_onKilledEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="Enh_onRespawnEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="Enh_onDamagedEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item207
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11743.312,8.7690439,13095.646};
+				angles[]={-0,0.9047066,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="nul = [this,""REPAIR2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=1456;
+			type="SOR_Eng_Truck_AutoRepair_D";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_onKilledEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="Enh_onRespawnEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="Enh_onDamagedEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				nAttributes=3;
+			};
 		};
 	};
 	class Connections

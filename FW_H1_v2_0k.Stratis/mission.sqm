@@ -8,14 +8,14 @@ class EditorData
 	toggles=1665;
 	class ItemIDProvider
 	{
-		nextID=1715;
+		nextID=1754;
 	};
 	class Camera
 	{
-		pos[]={2002.7605,102.29213,5654.7778};
-		dir[]={0.34248737,-0.65403283,-0.67467916};
-		up[]={0.2961185,0.75628889,-0.58332628};
-		aside[]={-0.89177245,2.4343899e-007,-0.45269719};
+		pos[]={1459.7866,259.24271,5780.9258};
+		dir[]={0.84121358,-0.48494905,-0.23966052};
+		up[]={0.46659872,0.8743813,-0.13292889};
+		aside[]={-0.27401739,1.5219121e-006,-0.9618271};
 	};
 };
 binarizationWanted=0;
@@ -275,7 +275,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=204;
+		items=207;
 		class Item0
 		{
 			dataType="Marker";
@@ -23126,22 +23126,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1850.4563,5.5,5568.0815};
-				angles[]={0,1.836688,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=1686;
-			type="SOR_Land_HelipadCircle_F";
-		};
-		class Item197
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={2084.8191,8.8709354,5593.814};
 				angles[]={0,1.7688682,0};
 			};
@@ -23237,7 +23221,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item198
+		class Item197
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23337,7 +23321,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item199
+		class Item198
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23437,7 +23421,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item200
+		class Item199
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23537,7 +23521,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item201
+		class Item200
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23637,7 +23621,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item202
+		class Item201
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23737,7 +23721,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item203
+		class Item202
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -23802,6 +23786,198 @@ class Mission
 								};
 							};
 							value=2;
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item203
+		{
+			dataType="Marker";
+			position[]={1705.7863,5.5,5328.8896};
+			name="medivac1_1";
+			text="MEV HQ";
+			type="loc_Hospital";
+			colorName="ColorWEST";
+			id=1715;
+		};
+		class Item204
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1863.9518,7.4160042,5566.3296};
+				angles[]={-0,4.9288697,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="nul = [this,""FUEL2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=1737;
+			type="SOR_Eng_Truck_fuel_D";
+		};
+		class Item205
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1865.1379,7.4255862,5571.187};
+				angles[]={-0,4.9417834,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="nul = [this,""AMMO2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=1746;
+			type="SOR_Eng_Truck_ammo_D";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_onKilledEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="Enh_onRespawnEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="Enh_onDamagedEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item206
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1863.108,7.5171547,5561.2334};
+				angles[]={0.032487731,4.9285541,6.2806721};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="nul = [this,""REPAIR2""] spawn SOR_fnc_markUnits;";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=1747;
+			type="SOR_Eng_Truck_AutoRepair_D";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_onKilledEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="Enh_onRespawnEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="Enh_onDamagedEvent";
+					expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
 						};
 					};
 				};
