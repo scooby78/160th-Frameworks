@@ -2,5 +2,8 @@
 
 This is the home of the mission framework for the 160th SOR
 
-#requires
-160th modset (See http://www.160th.net/ for more information)
+## Requires:  
+The 160th SOR modset (See [www.160th.net](www.160th.net) for more information)
+
+## Using these frameworks:
+See the [mission making rules](https://github.com/scooby78/160th-Frameworks/wiki)
