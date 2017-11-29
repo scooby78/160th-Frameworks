@@ -1,6 +1,7 @@
-# 160th-Frameworks
+# 160th-Frameworks - OLD
 
-This is the home of the mission framework for the 160th SOR
+This *WAS* the home of the mission framework for the 160th SOR
+New all-in-one repository is located [here](https://github.com/scooby78/160thSOR)
 
 ## Requires:  
 The 160th SOR modset (See [www.160th.net](www.160th.net) for more information)
